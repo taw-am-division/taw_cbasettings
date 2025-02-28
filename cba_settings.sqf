@@ -1388,10 +1388,13 @@ kat_breathing_stethoscopeSoundVolume = 2;
 force force kat_breathing_TensionHemothoraxAlwaysVisible = false;
 
 // KAT - ADV Medical: Chemical
-force force kat_chemical_affectAI = false;
-force force kat_chemical_availGasmask = "'G_AirPurifyingRespirator_01_F', 'G_RegulatorMask_F', 'kat_mask_M50', 'kat_mask_M04'";
-force force kat_chemical_gasmask_durability = 3600;
-force force kat_chemical_infectionTime = 300;
+force force kat_chemical_availGasmask = "'G_AirPurifyingRespirator_01_F','G_AirPurifyingRespirator_02_olive_F','G_AirPurifyingRespirator_02_sand_F','G_RegulatorMask_F', 'kat_mask_M50', 'kat_mask_M04'";
+force force kat_chemical_gasmask_durability = 1200;
+force force kat_chemical_gasMaskSoundVolume = 0;
+force force kat_chemical_infectionTime = 10;
+force force kat_chemical_maskStaminaLoss = false;
+force force kat_chemical_showPoisoning = true;
+force force kat_chemical_tearGasDropChance = 0;
 
 // KAT - ADV Medical: Circulation
 force force kat_circulation_AdvRhythm = false;
