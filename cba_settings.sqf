@@ -141,10 +141,10 @@ force ace_fire_enableFlare = false;
 ace_fire_enableScreams = false;
 
 // ACE Fortify
-force ace_fortify_markObjectsOnMap = 1;
-force ace_fortify_timeCostCoefficient = 1;
-force ace_fortify_timeMin = 1.5;
-acex_fortify_settingHint = 2;
+force ace_fortify_markObjectsOnMap = 0;
+force ace_fortify_timeCostCoefficient = 0.2;
+force ace_fortify_timeMin = 0.05;
+acex_fortify_settingHint = 1;
 
 // ACE Fragmentation Simulation
 force force ace_frag_enabled = false;
