@@ -1077,8 +1077,8 @@ cba_ui_notifyLifetime = 4;
 cba_ui_StorePasswords = 1;
 
 // Crows Electronic Warfare
-force force crowsEW_spectrum_defaultClassForJammingSignal = "UGV_01_base_F,UGV_02_Base_F,UAV_01_base_F,UAV_02_base_F,UAV_03_base_F,UAV_04_base_F,UAV_05_Base_F,UAV_06_base_F,GX_HONEYBADGER_UGV_BASE,GX_BLACK_HORNET_UAV_BASE,GX_DRONE40_UAV_BASE";
-force force crowsEW_spectrum_minJamSigStrength = -60;
+force force crowsEW_spectrum_defaultClassForJammingSignal = "UGV_01_base_F,UGV_02_Base_F,UAV_01_base_F,UAV_02_base_F,UAV_03_base_F,UAV_04_base_F,UAV_05_Base_F,UAV_06_base_F,GX_HONEYBADGER_UGV_BASE,GX_BLACK_HORNET_UAV_BASE,GX_DRONE40_UAV_BASE,shahed_base_F,shahed_base_F";
+force force crowsEW_spectrum_minJamSigStrength = -40;
 force force crowsEW_spectrum_selfTracking = false;
 crowsEW_spectrum_spectrumAutoline = true;
 crowsEW_spectrum_spectrumAutolineColor1 = 2;
@@ -1089,6 +1089,8 @@ crowsEW_spectrum_spectrumAutolineLength = 6000;
 crowsEW_spectrum_spectrumAutolineNoise = 0;
 force force crowsEW_spectrum_spectrumEnable = true;
 force force crowsEW_spectrum_tfarSideTrack = false;
+force force crowsEW_main_zeus_jam_immune = false;
+force force crowsEW_main_zeus_jam_marker_show = true;
 
 // Crows Zeus Additions
 crowsza_pingbox_CBA_Setting_enabled = true;
