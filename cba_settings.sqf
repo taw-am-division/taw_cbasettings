@@ -1651,6 +1651,26 @@ FF_SimpleGrid_MarkerDefinition = 10;
 FF_SimpleGrid_NoASL = false;
 FF_SimpleGrid_NoMarkerTime = false;
 
+// TAW
+TAW_FOB_Debug = true;
+force force TAW_FOB_List = "[""B_Truck_01_FOB_F"",""B_Slingload_01_FOB_F""]";
+force force TAW_FOB_Range = 29.0545;
+force force TAW_FOB_Resupply = true;
+force force TAW_FOB_Spawn = true;
+force force TAW_FOB_Teleport = true;
+force force TAW_Supplies_List = "[[""TAW_Supplies_Barrel"",500],[""TAW_Supplies_Box"",500],[""TAW_Supplies_Ammo"",500]]";
+force force TAW_VehicleSpawner_Air_List = "[[""FIR_AV8B"",500], [""RHSGREF_A29B_HIDF"", 700], [""USAF_A10"", 700], [""USAF_F22"", 600], [""USAF_F35A"", 600], [""JK_B_US_C5M_Super_Galaxy_F"", 800], [""USAF_C130J"", 800], [""RHS_UH60M_d"", 500], [""RHS_MELB_MH6M"", 400], [""RHS_MELB_AH6M"", 500], [""RHS_CH_47F_10"", 600], [""B_Heli_Transport_03_F"", 600], [""RHS_AH64D"", 700], [""B_Heli_Attack_01_dynamicLoadout_F"", 700], [""Valor_Turret_Transport_CrewGun_F"",500], [""Valor_Attack_F"",400], [""Valor_Transport_Armed_F"",300], [""B_T_VTOL_01_infantry_F"", 500], [""B_T_VTOL_01_vehicle_F"", 500], [""B_T_VTOL_01_armed_F"", 500]]";
+force force TAW_VehicleSpawner_Boat_List = "[[""B_Boat_Transport_01_F"",100],[""B_Boat_Armed_01_miningun_F"",200],[""rhsusf_mkvsoc"",400],[""B_SDV_01_F"",100]]";
+force force TAW_VehicleSpawner_Car_List = "[[""B_LSV_02_armed_F_custom_recon"",200], [""B_Quadbike_01_F"",100]]";
+TAW_VehicleSpawner_Debug = true;
+force force TAW_VehicleSpawner_Drone_List = "[[""USAF_MQ9"", 400],[""USAF_RQ4A"", 400],[""B_T_UAV_03_dynamicLoadout_F_mk2"",400],[""B_UAV_05_F_mk2"",400],[""B_UAV_02_dynamicLoadout_F_mk2"",400],[""B_UGV_01_rcws_F"",200]]";
+force TAW_VehicleSpawner_Spawn_Cost = true;
+force force TAW_VehicleSpawner_Spawn_Range = 100;
+force force TAW_VehicleSpawner_Spawn_Time = 10;
+force force TAW_VehicleSpawner_Support_List = "[[""B_Truck_01_FOB_F"",1000],[""B_Slingload_01_FOB_F"",1000],[""B_Slingload_01_Medevac_F"",600],[""TAW_Resupply_ACEArsenal"",50]]";
+
+
+
 // TFAR - Animations
 radioAnims_cba_ads = true;
 radioAnims_cba_Earpieces = "[""G_WirelessEarpiece_F""]";
