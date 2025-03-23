@@ -1645,6 +1645,18 @@ kat_watch_altitudeUnit = 0;
 kat_watch_pressureUnit = 0;
 kat_watch_temperatureUnit = 0;
 
+
+// KJW's Jetpacks
+force force jen_jetpacks_core_alarmVolume = 0.3;
+force force jen_jetpacks_core_alternateControls = false;
+force force jen_jetpacks_core_disableAlarm = false;
+jen_jetpacks_core_ejectHelper = true;
+jen_jetpacks_core_fuelColor = [0.7,0.7,0,0.5];
+force force jen_jetpacks_core_globalFuelCoef = 0.1;
+force force jen_jetpacks_core_globalHeatCoef = 0.7;
+jen_jetpacks_core_heatColor = [0.7,0,0,0.5];
+
+
 // Simple Grid Designators
 FF_SimpleGrid_CreationType = "Vanilla";
 FF_SimpleGrid_DisableDesignators = false;
