@@ -142,7 +142,7 @@ ace_fire_enableScreams = false;
 
 // ACE Fortify
 force ace_fortify_markObjectsOnMap = 0;
-force ace_fortify_timeCostCoefficient = 0.2;
+force ace_fortify_timeCostCoefficient = 0.125;
 force ace_fortify_timeMin = 0.05;
 acex_fortify_settingHint = 1;
 
