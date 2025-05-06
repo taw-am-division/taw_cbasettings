@@ -1121,6 +1121,176 @@ ctab_core_useAceMicroDagr = true;
 ctab_core_useArmaMarker = true;
 ctab_core_useMils = false;
 
+// DCO soldier FSM | 1.48
+force SFSM_BFFknowledgeType = "one side";
+SFSM_DebugType = "curator";
+force SFSM_disablefipo_module = false;
+force SFSM_globalUD = false;
+force SFSM_KnowledgeToFight = 0.1;
+force SFSM_noRubber = false;
+force SFSM_simpleBff = true;
+force SFSM_spawnBffActions = true;
+force SFSM_storeMoraleData = false;
+
+// DCO soldier FSM | Actions
+force SFSM_audioFeedbackType = "voice";
+force SFSM_emergencyRearm = true;
+force SFSM_reactFireCoolDown = 180;
+force SFSM_throwBackGrenade = true;
+
+// DCO soldier FSM | Capture
+force SFSM_bombOnCapture = 0.2;
+force SFSM_captiveAutoDeath = -1;
+force force SFSM_captureAbuseProb = 0.5;
+force SFSM_captureExecProb = 1;
+force SFSM_captureExplosive = "grenade";
+force SFSM_captureTargets = "Everyone";
+force SFSM_cptrAbuseProbPlr = 1;
+force SFSM_cptrExecProbPlr = 0.9;
+force SFSM_cptrPlrEscProb = 0.5;
+force SFSM_cptrPlrEscTime = 7;
+
+// DCO soldier FSM | Close Quarter Combat (CQB)
+force SFSM_clearHouse = true;
+force SFSM_CQBdistance = 70;
+force SFSM_CQBunitCap = 4;
+force SFSM_houseDemolition = true;
+force SFSM_rpgHouse = true;
+
+// DCO soldier FSM | Evasion Attack
+force SFSM_allowEvasionAttack = true;
+force SFSM_EA_feintPushLeft = true;
+force SFSM_EA_feintPushRight = true;
+force SFSM_EA_flankLeft = true;
+force SFSM_EA_flankRight = true;
+force SFSM_EA_ZigZag = true;
+force SFSM_evasionAttackCoolDown = 10;
+force SFSM_evasionAttackSpeed = 1.2;
+
+// DCO soldier FSM | Fighting Positions (FIPO)
+force FIPO_idleAnimations = "['Acts_Executioner_Squat', 'Acts_AidlPercMstpSlowWrflDnon_pissing', 'Acts_AidlPercMstpSlowWrflDnon_warmup03', 'Acts_AidlPercMstpSnonWnonDnon_warmup_7_loop', 'Acts_AidlPercMstpSnonWnonDnon_warmup_6_loop']";
+force SFSM_allowFipoTeleport = true;
+force SFSM_fipoGetInDistance = 70;
+force SFSM_fipoKnockOutTime = 120;
+force SFSM_playerSpotTeleportDist = 200;
+force SFSM_playerSquadFipo = false;
+
+// DCO soldier FSM | Headless Client
+force force PR_Allow_HC = true;
+force force PR_HC1 = "HC1";
+force force PR_Use_HC = true;
+
+// DCO soldier FSM | Medical
+force SFSM_ACE_Revive = false;
+force force SFSM_dragWounded = true;
+force SFSM_EmergencyHealing = "legs-only";
+force SFSM_maxDragDistance = 40;
+force SFSM_medicSearchDistance = 100;
+force SFSM_minEnemyDistForHealing = 0;
+
+// DCO soldier FSM | Movement
+force SFSM_allowDodging = true;
+force force SFSM_allowEvasion = true;
+force SFSM_allowFlinching = true;
+force SFSM_breakCoverOnHit = true;
+force SFSM_DodgeCoolDown = 10;
+force SFSM_DodgeDistance = 60;
+force SFSM_dodgeIndoors = true;
+force SFSM_DodgeTimer = 40;
+force SFSM_ExcludeZcommand = false;
+force SFSM_explosionCoverRad = 70;
+force SFSM_FlinchCoolDown = 5;
+force SFSM_flinchStopDodge = false;
+force SFSM_maxSprinters = 15;
+force SFSM_noCoverPanic = false;
+force SFSM_panicCoef = 0.5;
+force SFSM_PlayerGrpDodge = false;
+force SFSM_RpsDodgeTrigger = 4;
+force SFSM_sprintSpeed = 1.2;
+force SFSM_stayCoverPosTime = 20;
+
+// DCO soldier FSM | Overrun
+force SFSM_allowPanic = true;
+force SFSM_allowSurrender = true;
+force SFSM_overRun = true;
+force SFSM_overRunDistance = 40;
+force SFSM_playerSquadOverRun = true;
+
+// DCO soldier FSM | Player Options
+force SFSM_autoStanceAction = true;
+force SFSM_autoStanceEnabled = true;
+force SFSM_buddyHeal = true;
+force SFSM_buddyRearm = true;
+
+// DCO soldier FSM | Sound Reaction
+force SFSM_shotDistanceAss = 400;
+force SFSM_shotDistanceDef = 300;
+force SFSM_shotDistanceMac = 600;
+force SFSM_shotDistanceSil = 100;
+force SFSM_shotDistanceSni = 800;
+
+// DCO soldier FSM | Specialists
+force SFSM_AtSpecHuntVehicles = true;
+force SFSM_disableSpecialists = "player-squads";
+force SFSM_huntCooldown = 10;
+force SFSM_marksmanFSM = true;
+force SFSM_maxAts = 4;
+force SFSM_maxHuntTime = 300;
+force SFSM_maxMgs = 4;
+force SFSM_mgSuppression = true;
+force SFSM_specRegroupDist = 150;
+
+// DCO soldier FSM | Vehicles
+force SFSM_hearingDistance = 250;
+force SFSM_hearingHide = true;
+force SFSM_hideFromVehicles = true;
+force SFSM_hidingTimeOut = 30;
+force SFSM_hijackVehicles = "action";
+force SFSM_turretLeaderDist = 40;
+
+// DCO Squad FSM | 0.75
+force SQFM_allowRegroup = true;
+force SQFM_battlePublicVar = true;
+force SQFM_boardTeleportDist = 30;
+SQFM_debugMode = false;
+force SQFM_idleStateTimeLimit = 5;
+force SQFM_manualBoardingDist = 100;
+force SQFM_regroupDistance = 100;
+force SQFM_regroupInterval = 180;
+force SQFM_replenishDistance = 250;
+force SQFM_shareBattleKnowledge = true;
+force SQFM_showHostileSquadMapMarkers = "always";
+force SQFM_showReforChat = true;
+force SQFM_showSquadMapMarkers = true;
+force SQFM_travelWalkDist = 500;
+
+// DCO Squad FSM | Artillery Settings
+force SQFM_artyCallCooldown = 60;
+force SQFM_artyCallCooldownBattle = 300;
+force SQFM_artyCooldown = 60;
+force SQFM_artyDelay = 10;
+force SQFM_artyRounds = 5;
+force SQFM_artySafeDist = 10;
+force SQFM_artySpread = 40;
+force SQFM_showArtyChat = true;
+
+// DCO Squad FSM | Default Squad Behaviour
+force SQFM_defaultBehaviourAllowBattleTask = true;
+force SQFM_defaultBehaviourAttack = true;
+force SQFM_defaultBehaviourCallArty = true;
+force SQFM_defaultBehaviourCallReforce = true;
+force SQFM_defaultBehaviourCallTransport = true;
+force SQFM_defaultBehaviourCanIdleCover = true;
+force SQFM_defaultBehaviourClear = true;
+force SQFM_defaultBehaviourDefend = true;
+force SQFM_defaultBehaviourExcluded = false;
+force SQFM_defaultBehaviourForceTravelOnFoot = false;
+force SQFM_defaultBehaviourPush = true;
+force SQFM_defaultBehaviourPushDist = 200;
+force SQFM_defaultBehaviourPushKnowledge = 0;
+force SQFM_defaultBehaviourReinforce = true;
+force SQFM_defaultBehaviourUseNearVehiclesTransport = true;
+
 // DUI - Squad Radar - Indicators
 force diwako_dui_indicators_crew_range_enabled = false;
 diwako_dui_indicators_fov_scale = false;
@@ -1798,6 +1968,96 @@ force vet_unflipping_time = 5;
 force vet_unflipping_unit_man_limit = 5;
 force vet_unflipping_unit_mass_limit = 3000;
 force vet_unflipping_vehicle_mass_limit = 100000;
+
+// VCOM AI East Skill
+force Vcm_AISkills_East_AimingAccuracy = 0.25;
+force Vcm_AISkills_East_aimingShake = 0.15;
+force Vcm_AISkills_East_aimingSpeed = 0.15;
+force Vcm_AISkills_East_commanding = 0.85;
+force Vcm_AISkills_East_courage = 0.5;
+force Vcm_AISkills_East_general = 0.5;
+force Vcm_AISkills_East_reloadSpeed = 1;
+force Vcm_AISkills_East_spotDistance = 0.85;
+force Vcm_AISkills_East_spotTime = 0.85;
+
+// VCOM AI General Skill
+force Vcm_AISkills_General_aimingShake = 0.15;
+force Vcm_AISkills_General_AimingAccuracy = 0.25;
+force Vcm_AISkills_General_aimingSpeed = 0.35;
+force Vcm_AISkills_General_commanding = 0.85;
+force Vcm_AISkills_General_courage = 0.5;
+force Vcm_AISkills_General_general = 0.5;
+force Vcm_AISkills_General_GrenadeCoolDown = 60;
+force Vcm_AISkills_General_reloadSpeed = 1;
+force Vcm_AISkills_General_SmokeCoolDown = 60;
+force Vcm_AISkills_General_spotDistance = 0.85;
+force Vcm_AISkills_General_spotTime = 0.85;
+
+// VCOM AI Resistance Skill
+force Vcm_AISkills_Resistance_AimingAccuracy = 0.25;
+force Vcm_AISkills_Resistance_aimingShake = 0.15;
+force Vcm_AISkills_Resistance_aimingSpeed = 0.15;
+force Vcm_AISkills_Resistance_commanding = 0.85;
+force Vcm_AISkills_Resistance_courage = 0.5;
+force Vcm_AISkills_Resistance_general = 0.5;
+force Vcm_AISkills_Resistance_reloadSpeed = 1;
+force Vcm_AISkills_Resistance_spotDistance = 0.85;
+force Vcm_AISkills_Resistance_spotTime = 0.85;
+
+// VCOM AI West Skill
+force Vcm_AISkills_West_AimingAccuracy = 0.25;
+force Vcm_AISkills_West_aimingShake = 0.15;
+force Vcm_AISkills_West_aimingSpeed = 0.15;
+force Vcm_AISkills_West_commanding = 0.85;
+force Vcm_AISkills_West_courage = 0.5;
+force Vcm_AISkills_West_general = 0.5;
+force Vcm_AISkills_West_reloadSpeed = 1;
+force Vcm_AISkills_West_spotDistance = 0.85;
+force Vcm_AISkills_West_spotTime = 0.85;
+
+// VCOM SETTINGS
+force VCM_ActivateAI = true;
+force VCM_ADVANCEDMOVEMENT = true;
+force VCM_AIDISTANCEVEHPATH = 100;
+force VCM_AIMagLimit = 5;
+force VCM_AISkills_General_EM = true;
+force VCM_AISkills_General_EM_CHN = 10;
+force VCM_AISkills_General_EM_CLDWN = 10;
+force Vcm_AISkills_SideSpecific = false;
+force VCM_AISNIPERS = true;
+force VCM_ARTYDELAY = 30;
+force VCM_ARTYENABLE = true;
+force VCM_ARTYSIDES = [WEST,EAST,GUER];
+force VCM_CARGOCHNG = true;
+force VCM_ClassSteal = true;
+force VCM_DebugAIPathing = false;
+force VCM_DebugCombatMove = false;
+force VCM_DebugFSM = false;
+force VCM_DebugOld = false;
+force VCM_DebugSuppression = false;
+force VCM_DISEMBARKRANGE = 150;
+force Vcm_DrivingActivated = false;
+force VCM_ForceSpeed = true;
+force VCM_FRMCHANGE = true;
+force Vcm_GrenadeChance = 25;
+force VCM_HEARINGDISTANCE = 1100;
+force Vcm_IdleAnimationChnc = 2;
+force Vcm_IdleAnimationsEnabled = true;
+force VCM_MINECHANCE = 75;
+force Vcm_RadioChatter = false;
+force VCM_RAGDOLL = true;
+force VCM_RAGDOLLCHC = 2;
+force VCM_SIDEENABLED = [WEST,EAST,GUER];
+force VCM_SKILLCHANGE = true;
+force Vcm_SmokeGrenadeChance = 15;
+force VCM_STATICARMT = 300;
+force Vcm_StaticWeapons = false;
+force VCM_StealVeh = true;
+force VCM_TURRETUNLOAD = true;
+force VCM_USECBASETTINGS = true;
+force VCM_WARNDELAY = 30;
+force VCM_WARNDIST = 800;
+
 
 // Weather PLUS
 force WP_DIS = true;
