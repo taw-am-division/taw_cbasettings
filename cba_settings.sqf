@@ -1564,8 +1564,7 @@ GX_DRONES_HAND_DEPLOY_PREFER = true;
 // Heavy Weapons Framework
 force WBK_HWF_AllowProneShootSetting = true;
 force WBK_HWF_AllowRecoilSetting = true;
-force WBK_HWF_WeapsArraySetting = "['MMG_01_hex_F','MMG_01_hex_ARCO_LP_F','MMG_01_tan_F','MMG_02_black_F','MMG_02_black_RCO_BI_F','MMG_02_sand_F','MMG_02_sand_RCO_LP_F','MMG_02_camo_F','OPTRE_M247H_Etilka','OPTRE_M247H_Shield_Etilka','JLTS_Z6','SWLW_Z6','IDA_Z6','HLC_wp_M134Painless']";
-
+force WBK_HWF_WeapsArraySetting = "['MMG_01_hex_F','MMG_01_hex_ARCO_LP_F','LMG_Zafir_F','rhs_weapon_m240G','MMG_01_tan_F','MMG_02_black_F','MMG_02_black_RCO_BI_F','MMG_02_sand_F','MMG_02_sand_RCO_LP_F','MMG_02_camo_F','OPTRE_M247H_Etilka','OPTRE_M247H_Shield_Etilka','JLTS_Z6','SWLW_Z6','IDA_Z6','HLC_wp_M134Painless','rhs_weapon_m240G','LMG_S77_lxWS','LMG_S77_Compact_lxWS','rhs_weapon_m240G','LMG_S77_AAF_lxWS','LMG_S77_Desert_lxWS','LMG_S77_Snakeskin_lxWS']";
 
 // KAT - ADV Medical: Airway
 force force kat_airway_Accuvac_time = 8;
