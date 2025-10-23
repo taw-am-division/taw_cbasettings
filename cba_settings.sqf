@@ -2011,10 +2011,10 @@ force TFAR_fullDuplex = true;
 force TFAR_giveLongRangeRadioToGroupLeaders = false;
 force TFAR_giveMicroDagrToSoldier = false;
 force TFAR_givePersonalRadioToRegularSoldier = false;
-force TFAR_globalRadioRangeCoef = 1;
+force TFAR_globalRadioRangeCoef = 1.4;
 force TFAR_instantiate_instantiateAtBriefing = false;
 force force TFAR_objectInterceptionEnabled = false;
-force TFAR_objectInterceptionStrength = 400;
+force TFAR_objectInterceptionStrength = 250;
 force tfar_radiocode_east = "_opfor";
 force tfar_radiocode_independent = "_independent";
 force tfar_radiocode_west = "_bluefor";
@@ -2044,7 +2044,7 @@ force TFAR_spectatorCanHearFriendlies = true;
 force TFAR_takingRadio = 2;
 force TFAR_Teamspeak_Channel_Name = "TaskForceRadio";
 force TFAR_Teamspeak_Channel_Password = "123";
-force tfar_terrain_interception_coefficient = 7;
+force tfar_terrain_interception_coefficient = 4;
 force TFAR_voiceCone = true;
 
 // UK3CB Factions
