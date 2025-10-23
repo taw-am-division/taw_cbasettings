@@ -921,9 +921,9 @@ ace_ui_weaponNameBackground = true;
 ace_ui_zeroing = true;
 
 // ACE Vehicle Lock
-force force ace_vehiclelock_defaultLockpickStrength = 10;
-force force ace_vehiclelock_lockVehicleInventory = false;
-force force ace_vehiclelock_vehicleStartingLockState = -1;
+force ace_vehiclelock_defaultLockpickStrength = 10;
+force ace_vehiclelock_lockVehicleInventory = false;
+force ace_vehiclelock_vehicleStartingLockState = 2;
 
 // ACE Vehicles
 force ace_novehicleclanlogo_enabled = false;
