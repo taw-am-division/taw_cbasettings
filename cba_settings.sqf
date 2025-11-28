@@ -1103,8 +1103,8 @@ cba_ui_StorePasswords = 1;
 
 // Crows Electronic Warfare
 force force crowsEW_spectrum_spectrumEnable = true;
-force force crowsEW_spectrum_defaultClassForJammingSignal = "UGV_01_base_F,UGV_02_Base_F,UAV_01_base_F,UAV_02_base_F,UAV_03_base_F,UAV_04_base_F,UAV_05_Base_F,UAV_06_base_F,GX_HONEYBADGER_UGV_BASE,GX_BLACK_HORNET_UAV_BASE,GX_DRONE40_UAV_BASE,shahed_base_F";
-force force crowsEW_spectrum_defaultRangesForJammingSignal = "300,300,300,300,300,500,500,500,300,300,300,600";
+force force crowsEW_spectrum_defaultClassForJammingSignal = "UGV_01_base_F,UGV_02_Base_F,UAV_01_base_F,UAV_02_base_F,UAV_03_base_F,UAV_04_base_F,UAV_05_Base_F,UAV_06_base_F,GX_HONEYBADGER_UGV_BASE,GX_BLACK_HORNET_UAV_BASE,GX_DRONE40_UAV_BASE,shahed_base_F,UAV_02_Base_lxWS";
+force force crowsEW_spectrum_defaultRangesForJammingSignal = "350,350,350,350,350,500,500,500,350,350,350,800,400";
 force force crowsEW_spectrum_UAVterminalUserVisibleInSpectrum = false;
 force force crowsEW_spectrum_minJamSigStrength = -60;
 force force crowsEW_spectrum_tfarSideTrack = true;
