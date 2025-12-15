@@ -772,10 +772,10 @@ force ace_finger_sizeCoef = 1;
 force force ace_pylons_enabledForZeus = true;
 force force ace_pylons_enabledFromAmmoTrucks = true;
 force force ace_pylons_rearmNewPylons = true;
-force force ace_pylons_requireEngineer = false;
-force force ace_pylons_requireToolkit = false;
-force force ace_pylons_searchDistance = 30;
-force force ace_pylons_timePerPylon = 2.32353;
+force force ace_pylons_requireEngineer = true;
+force force ace_pylons_requireToolkit = true;
+force force ace_pylons_searchDistance = 40;
+force force ace_pylons_timePerPylon = 1.5;
 
 // ACE Quick Mount
 force force ace_quickmount_distance = 3;
