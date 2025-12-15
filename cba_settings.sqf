@@ -859,7 +859,7 @@ force ace_trenches_smallEnvelopeDigDuration = 20;
 force ace_trenches_smallEnvelopeRemoveDuration = 12;
 
 // ACE Uncategorized
-force ace_fastroping_autoAddFRIES = false;
+force ace_fastroping_autoAddFRIES = true;
 force ace_fastroping_requireRopeItems = false;
 force ace_flags_enableCarrying = true;
 force ace_flags_enablePlacing = true; 
