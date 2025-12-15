@@ -111,10 +111,10 @@ force ace_csw_handleExtraMagazinesType = 0;
 force ace_csw_progressBarTimeCoefficent = 1;
 
 // ACE Dragging
-force ace_dragging_allowRunWithLightweight = true;
-ace_dragging_dragAndFire = true;
-force ace_dragging_skipContainerWeight = false;
-force ace_dragging_weightCoefficient = 1;
+force force ace_dragging_allowRunWithLightweight = true;
+force force ace_dragging_dragAndFire = true;
+force force ace_dragging_skipContainerWeight = false;
+force force ace_dragging_weightCoefficient = 1;
 
 // ACE Explosives
 ace_explosives_customTimerDefault = 30;
