@@ -1653,7 +1653,7 @@ kat_breathing_stethoscopeSoundVolume = 2;
 force force kat_breathing_TensionHemothoraxAlwaysVisible = false;
 
 // KAT - ADV Medical: Chemical
-force force kat_chemical_availGasmask = "'G_AirPurifyingRespirator_01_F','G_AirPurifyingRespirator_02_olive_F','G_AirPurifyingRespirator_02_sand_F','G_RegulatorMask_F', 'kat_mask_M50', 'kat_mask_M04'";
+force force kat_chemical_availGasmask = "'G_AirPurifyingRespirator_01_F','G_AirPurifyingRespirator_02_olive_F','G_AirPurifyingRespirator_02_sand_F','G_RegulatorMask_F', 'kat_mask_M50', 'kat_mask_M04', 'JCA_G_AirPurifyingRespirator_03_black_clear_F', 'JCA_G_AirPurifyingRespirator_03_olive_clear_F', 'JCA_G_AirPurifyingRespirator_03_sand_clear_F', 'JCA_G_AirPurifyingRespirator_03_black_tinted_F', 'JCA_G_AirPurifyingRespirator_03_olive_tinted_F', 'JCA_G_AirPurifyingRespirator_03_sand_tinted_F', 'JCA_G_AirPurifyingRespirator_04_black_clear_F', 'JCA_G_AirPurifyingRespirator_04_olive_clear_F', 'JCA_G_AirPurifyingRespirator_04_sand_clear_F', 'JCA_G_AirPurifyingRespirator_04_black_tinted_F', 'JCA_G_AirPurifyingRespirator_04_olive_tinted_F', 'JCA_G_AirPurifyingRespirator_04_sand_tinted_F'";
 force force kat_chemical_gasmask_durability = 1200;
 force force kat_chemical_gasMaskSoundVolume = 0;
 force force kat_chemical_infectionTime = 10;
