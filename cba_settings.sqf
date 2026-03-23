@@ -2562,3 +2562,27 @@ force zhc_dynsim_Override = true;
 force zhc_dynsim_PropDist = 50;
 force zhc_dynsim_VehDist = 350;
 
+// ZHC Settings
+force zhc_offload_badNames = "'ignore'";
+force zhc_offload_badTypes = "";
+force zhc_offload_BlacklistAllVehicles = false;
+force zhc_offload_CheckDelay = 5;
+force zhc_offload_CycleDelay = 20;
+force zhc_offload_debugGuids = "";
+force zhc_offload_DebugMode = 2;
+force zhc_offload_EmergencyOffloadDelay = 5;
+force zhc_offload_Enabled = true;
+force zhc_offload_EnableRebal = true;
+force zhc_offload_EnableZeusHolding = true;
+force zhc_offload_GarrisonTimeout = 30;
+force zhc_offload_OffloadDelay = 15;
+force zhc_offload_RebalanceDelay = 30;
+force zhc_offload_StartDelay = 5;
+force zhc_offload_StrtMsg = true;
+force zhc_offload_TransferLoadout = 1;
+force zhc_offload_Verbosity = 0;
+force zhc_stat_DebugRPT = false;
+force zhc_stat_DebugRPTForm = 0;
+force zhc_stat_EnableFPSCounter = true;
+force zhc_stat_MapFpsPos = 0;
+force zhc_stat_RPTFreq = 15;
