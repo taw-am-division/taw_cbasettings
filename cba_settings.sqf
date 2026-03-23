@@ -1851,9 +1851,11 @@ force kat_surgery_ultrasoundLocation = 3;
 force kat_surgery_ultrasoundTime = 8;
 
 // KAT - ADV Medical: Vitals
-force kat_vitals_simpleMedical = true;
+force kat_vitals_basicDiagnosticTime = 10;
+force kat_vitals_enableBasicDiagnostic = true;
+force kat_vitals_enableFluidShift = true;
+force kat_vitals_enableSimpleMedical = true;
 
-// KAT - ADV Medical: Watch
 // KJW's Jetpacks
 force force jen_jetpacks_core_alarmVolume = 0.3;
 force force jen_jetpacks_core_alternateControls = false;
