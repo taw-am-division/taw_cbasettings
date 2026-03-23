@@ -82,7 +82,7 @@ ace_casings_maxCasings = 250;
 
 // ACE Common
 force ace_common_allowFadeMusic = true;
-force ace_common_checkExtensions = false; 
+force ace_common_checkExtensions = false;
 force force ace_common_checkPBOsAction = 0;
 force force ace_common_checkPBOsCheckAll = false;
 force force ace_common_checkPBOsWhitelist = "[]";
@@ -408,8 +408,12 @@ ace_interact_menu_moveToRoot__ACE_Equipment__exchange_blade = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__exchange_dd = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__exchange_whip = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__extend_antenna = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__FSGm_Place_MedicBag = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__FSGm_Place_MedicBagMil = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__retract_antenna = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__tfw_radios_rf3080_place = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__tsp_ace_earplug_insert = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__tsp_ace_earplug_remove = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__tsp_melee_ak_bayonet = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__tsp_melee_ak_knife = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__tsp_melee_m9s_bayonet = false;
@@ -1195,20 +1199,20 @@ force cba_disposable_replaceDisposableLauncher = true;
 cba_events_repetitionMode = 1;
 force cba_network_loadoutValidation = 0;
 cba_optics_usePipOptics = true;
-cba_quicktime_qteShorten = false; 
+cba_quicktime_qteShorten = false;
 cba_ui_notifyLifetime = 4;
 cba_ui_StorePasswords = 1;
 
 // Crows Electronic Warfare
 force force crowsEW_spectrum_spectrumEnable = true;
+force force crowsEW_main_zeus_jam_immune = true;
+force force crowsEW_main_zeus_jam_marker_show = true;
 force force crowsEW_spectrum_defaultClassForJammingSignal = "UGV_01_base_F,UGV_02_Base_F,UAV_01_base_F,UAV_02_base_F,UAV_03_base_F,UAV_04_base_F,UAV_05_Base_F,UAV_06_base_F,GX_HONEYBADGER_UGV_BASE,GX_BLACK_HORNET_UAV_BASE,GX_DRONE40_UAV_BASE,shahed_base_F,UAV_02_Base_lxWS";
 force force crowsEW_spectrum_defaultRangesForJammingSignal = "400,400,400,600,400,600,600,600,400,400,400,800,400";
 force force crowsEW_spectrum_UAVterminalUserVisibleInSpectrum = false;
 force force crowsEW_spectrum_minJamSigStrength = -60;
 force force crowsEW_spectrum_tfarSideTrack = true;
 force force crowsEW_spectrum_selfTracking = true;
-force force crowsEW_main_zeus_jam_immune = true;
-force force crowsEW_main_zeus_jam_marker_show = true;
 crowsEW_spectrum_spectrumAutoline = true;
 crowsEW_spectrum_spectrumAutolineColor1 = 10;
 crowsEW_spectrum_spectrumAutolineColor2 = 4;
@@ -1244,176 +1248,6 @@ ctab_core_useAceMicroDagr = true;
 ctab_core_useArmaMarker = true;
 ctab_core_useMils = false;
 
-// DCO soldier FSM | 1.48
-force SFSM_BFFknowledgeType = "one side";
-SFSM_DebugType = "curator";
-force SFSM_disablefipo_module = false;
-force SFSM_globalUD = false;
-force SFSM_KnowledgeToFight = 0.1;
-force SFSM_noRubber = false;
-force SFSM_simpleBff = true;
-force SFSM_spawnBffActions = true;
-force SFSM_storeMoraleData = false;
-
-// DCO soldier FSM | Actions
-force SFSM_audioFeedbackType = "voice";
-force SFSM_emergencyRearm = true;
-force SFSM_reactFireCoolDown = 180;
-force SFSM_throwBackGrenade = true;
-
-// DCO soldier FSM | Capture
-force SFSM_bombOnCapture = 0.2;
-force SFSM_captiveAutoDeath = -1;
-force force SFSM_captureAbuseProb = 0.5;
-force SFSM_captureExecProb = 1;
-force SFSM_captureExplosive = "grenade";
-force SFSM_captureTargets = "Everyone";
-force SFSM_cptrAbuseProbPlr = 1;
-force SFSM_cptrExecProbPlr = 0.9;
-force SFSM_cptrPlrEscProb = 0.5;
-force SFSM_cptrPlrEscTime = 7;
-
-// DCO soldier FSM | Close Quarter Combat (CQB)
-force SFSM_clearHouse = true;
-force SFSM_CQBdistance = 70;
-force SFSM_CQBunitCap = 4;
-force SFSM_houseDemolition = true;
-force SFSM_rpgHouse = true;
-
-// DCO soldier FSM | Evasion Attack
-force SFSM_allowEvasionAttack = true;
-force SFSM_EA_feintPushLeft = true;
-force SFSM_EA_feintPushRight = true;
-force SFSM_EA_flankLeft = true;
-force SFSM_EA_flankRight = true;
-force SFSM_EA_ZigZag = true;
-force SFSM_evasionAttackCoolDown = 10;
-force SFSM_evasionAttackSpeed = 1.2;
-
-// DCO soldier FSM | Fighting Positions (FIPO)
-force FIPO_idleAnimations = "['Acts_Executioner_Squat', 'Acts_AidlPercMstpSlowWrflDnon_pissing', 'Acts_AidlPercMstpSlowWrflDnon_warmup03', 'Acts_AidlPercMstpSnonWnonDnon_warmup_7_loop', 'Acts_AidlPercMstpSnonWnonDnon_warmup_6_loop']";
-force SFSM_allowFipoTeleport = true;
-force SFSM_fipoGetInDistance = 70;
-force SFSM_fipoKnockOutTime = 120;
-force SFSM_playerSpotTeleportDist = 200;
-force SFSM_playerSquadFipo = false;
-
-// DCO soldier FSM | Headless Client
-force force PR_Allow_HC = true;
-force force PR_HC1 = "HC1";
-force force PR_Use_HC = true;
-
-// DCO soldier FSM | Medical
-force SFSM_ACE_Revive = false;
-force force SFSM_dragWounded = true;
-force SFSM_EmergencyHealing = "legs-only";
-force SFSM_maxDragDistance = 40;
-force SFSM_medicSearchDistance = 100;
-force SFSM_minEnemyDistForHealing = 0;
-
-// DCO soldier FSM | Movement
-force SFSM_allowDodging = true;
-force force SFSM_allowEvasion = true;
-force SFSM_allowFlinching = true;
-force SFSM_breakCoverOnHit = true;
-force SFSM_DodgeCoolDown = 10;
-force SFSM_DodgeDistance = 60;
-force SFSM_dodgeIndoors = true;
-force SFSM_DodgeTimer = 40;
-force SFSM_ExcludeZcommand = false;
-force SFSM_explosionCoverRad = 70;
-force SFSM_FlinchCoolDown = 5;
-force SFSM_flinchStopDodge = false;
-force SFSM_maxSprinters = 15;
-force SFSM_noCoverPanic = false;
-force SFSM_panicCoef = 0.5;
-force SFSM_PlayerGrpDodge = false;
-force SFSM_RpsDodgeTrigger = 4;
-force SFSM_sprintSpeed = 1.2;
-force SFSM_stayCoverPosTime = 20;
-
-// DCO soldier FSM | Overrun
-force SFSM_allowPanic = true;
-force SFSM_allowSurrender = true;
-force SFSM_overRun = true;
-force SFSM_overRunDistance = 40;
-force SFSM_playerSquadOverRun = true;
-
-// DCO soldier FSM | Player Options
-force SFSM_autoStanceAction = true;
-force SFSM_autoStanceEnabled = true;
-force SFSM_buddyHeal = true;
-force SFSM_buddyRearm = true;
-
-// DCO soldier FSM | Sound Reaction
-force SFSM_shotDistanceAss = 400;
-force SFSM_shotDistanceDef = 300;
-force SFSM_shotDistanceMac = 600;
-force SFSM_shotDistanceSil = 100;
-force SFSM_shotDistanceSni = 800;
-
-// DCO soldier FSM | Specialists
-force SFSM_AtSpecHuntVehicles = true;
-force SFSM_disableSpecialists = "player-squads";
-force SFSM_huntCooldown = 10;
-force SFSM_marksmanFSM = true;
-force SFSM_maxAts = 4;
-force SFSM_maxHuntTime = 300;
-force SFSM_maxMgs = 4;
-force SFSM_mgSuppression = true;
-force SFSM_specRegroupDist = 150;
-
-// DCO soldier FSM | Vehicles
-force SFSM_hearingDistance = 250;
-force SFSM_hearingHide = true;
-force SFSM_hideFromVehicles = true;
-force SFSM_hidingTimeOut = 30;
-force SFSM_hijackVehicles = "action";
-force SFSM_turretLeaderDist = 40;
-
-// DCO Squad FSM | 0.75
-force SQFM_allowRegroup = true;
-force SQFM_battlePublicVar = true;
-force SQFM_boardTeleportDist = 30;
-SQFM_debugMode = false;
-force SQFM_idleStateTimeLimit = 5;
-force SQFM_manualBoardingDist = 100;
-force SQFM_regroupDistance = 100;
-force SQFM_regroupInterval = 180;
-force SQFM_replenishDistance = 250;
-force SQFM_shareBattleKnowledge = true;
-force SQFM_showHostileSquadMapMarkers = "always";
-force SQFM_showReforChat = true;
-force SQFM_showSquadMapMarkers = true;
-force SQFM_travelWalkDist = 500;
-
-// DCO Squad FSM | Artillery Settings
-force SQFM_artyCallCooldown = 60;
-force SQFM_artyCallCooldownBattle = 300;
-force SQFM_artyCooldown = 60;
-force SQFM_artyDelay = 10;
-force SQFM_artyRounds = 5;
-force SQFM_artySafeDist = 10;
-force SQFM_artySpread = 40;
-force SQFM_showArtyChat = true;
-
-// DCO Squad FSM | Default Squad Behaviour
-force SQFM_defaultBehaviourAllowBattleTask = true;
-force SQFM_defaultBehaviourAttack = true;
-force SQFM_defaultBehaviourCallArty = true;
-force SQFM_defaultBehaviourCallReforce = true;
-force SQFM_defaultBehaviourCallTransport = true;
-force SQFM_defaultBehaviourCanIdleCover = true;
-force SQFM_defaultBehaviourClear = true;
-force SQFM_defaultBehaviourDefend = true;
-force SQFM_defaultBehaviourExcluded = false;
-force SQFM_defaultBehaviourForceTravelOnFoot = false;
-force SQFM_defaultBehaviourPush = true;
-force SQFM_defaultBehaviourPushDist = 200;
-force SQFM_defaultBehaviourPushKnowledge = 0;
-force SQFM_defaultBehaviourReinforce = true;
-force SQFM_defaultBehaviourUseNearVehiclesTransport = true;
-
 // DUI - Squad Radar - Indicators
 force diwako_dui_indicators_crew_range_enabled = false;
 diwako_dui_indicators_fov_scale = false;
@@ -1423,10 +1257,29 @@ diwako_dui_indicators_icon_medic = true;
 diwako_dui_indicators_range = 20;
 diwako_dui_indicators_range_crew = 300;
 diwako_dui_indicators_range_scale = false;
+force diwako_dui_indicators_rangeLimit = 100;
 diwako_dui_indicators_show = true;
 diwako_dui_indicators_size = 1;
 diwako_dui_indicators_style = "standard";
 diwako_dui_indicators_useACENametagsRange = true;
+
+// DUI - Squad Radar - Line Compass
+diwako_dui_linecompass_ACEFingeringColor = [1,0.66,0,1];
+force diwako_dui_linecompass_AllowNumericDrawBearing = true;
+diwako_dui_linecompass_CompassAvailableShown = true;
+diwako_dui_linecompass_compassRange = 35;
+force diwako_dui_linecompass_compassRangeLimit = 50;
+diwako_dui_linecompass_CustomWaypointColor = [0,0,0.87,1];
+diwako_dui_linecompass_DefaultIconColor = [0.5,0.87,0.5,1];
+diwako_dui_linecompass_DrawBearing = 2;
+diwako_dui_linecompass_Enabled = true;
+diwako_dui_linecompass_enableOcclusion = false;
+diwako_dui_linecompass_enableShowCustomWP = true;
+diwako_dui_linecompass_IconOutline = 0;
+diwako_dui_linecompass_occlusionFadeSpeed = 3.5;
+diwako_dui_linecompass_showSpeaking = true;
+diwako_dui_linecompass_SwapOrder = false;
+diwako_dui_linecompass_WaypointColor = [0,0,0.87,1];
 
 // DUI - Squad Radar - Main
 diwako_dui_ace_hide_interaction = true;
@@ -1494,9 +1347,10 @@ diwako_dui_radar_ace_finger = true;
 force diwako_dui_radar_ace_medic = true;
 diwako_dui_radar_always_show_unit_numbers = false;
 diwako_dui_radar_compassRangeCrew = 500;
+force diwako_dui_radar_compassRangeLimit = 50;
 diwako_dui_radar_dir_padding = 25;
 diwako_dui_radar_dir_shadow = 2;
-diwako_dui_radar_enable_seat_icons = true;
+diwako_dui_radar_enable_seat_icons = 2;
 diwako_dui_radar_group_by_vehicle = false;
 diwako_dui_radar_icon_opacity = 1;
 diwako_dui_radar_icon_opacity_no_player = true;
@@ -1553,26 +1407,6 @@ force emr_main_staminaCoefficient = 0;
 force emr_main_whitelistStr = "";
 force emr_main_yeetCoefficient = 1.4;
 
-// Fawks' Enhanced NVGs
-PDT_ENVG_ACE = false;
-PDT_ENVG_Blacklist = "";
-PDT_ENVG_Effect = "";
-
-// FPV Settings
-FPV_DefaultText = "CROCUS";
-
-// F/A-18
-js_jc_fa18_advancedStart = false;
-js_jc_fa18_atflirRequire = true;
-js_jc_fa18_canopyLoss = true;
-js_jc_fa18_core_afterburnerArmedByDefault = true;
-js_jc_fa18_core_simpleMavericks = true;
-js_jc_fa18_core_tdcDepressRequiredForMove = false;
-js_jc_fa18_cursorSensitivity = 1;
-js_jc_fa18_interactCursor = false;
-js_jc_fa18_interactionRadiusMod = 1;
-js_jc_fa18_showLabels = true;
-
 // Fire support PLUS
 force FSPLUS_105mmTrainingShell = true;
 force FSPLUS_122Rocket = true;
@@ -1611,7 +1445,6 @@ force FSNB_MushroomCloud = true;
 force FSNB_SmokeSpike = true;
 force FSNB_Sound = true;
 force FSNB_StaticRad = -1;
-
 
 // GRAD Trenches
 force force grad_trenches_functions_allowBigEnvelope = true;
@@ -1656,8 +1489,8 @@ force grad_trenches_functions_vehicleTrenchBuildSpeed = 5;
 
 // GX
 GX_DRONES_AUTOCONNECT = true;
+GX_DRONES_COMMAND_INTERACTIONS = false;
 GX_DRONES_DEBUG = false;
-GX_DRONES_HAND_DEPLOY_PREFER = true;
 
 // Heavy Weapons Framework
 force WBK_HWF_AllowProneShootSetting = true;
@@ -1697,7 +1530,7 @@ force force kat_breathing_advPtxChance = 0;
 force force kat_breathing_advPtxEnable = false;
 force force kat_breathing_arrestPneumothorax_interval = 3600;
 force kat_breathing_availOxyHelmet = "'H_PilotHelmetFighter_B', 'H_PilotHelmetFighter_O', 'H_PilotHelmetFighter_I', 'H_PilotHelmetFighter_I_E'";
-force kat_breathing_availOxyMask = "'kat_mask_solr'"; 
+force kat_breathing_availOxyMask = "'kat_mask_solr'";
 force kat_breathing_BVMOxygen_Multiplier = 1;
 force kat_breathing_clearChestSealAfterTreatment = true;
 force force kat_breathing_deepPenetratingInjuryChance = 0;
@@ -1705,7 +1538,7 @@ force force kat_breathing_deterioratingPneumothorax_chance = 0;
 force force kat_breathing_deterioratingPneumothorax_interval = 3600;
 force force kat_breathing_enable = false;
 force kat_breathing_enable_selfChestseal = 1;
-force kat_breathing_enableCheckBreathing = true; 
+force kat_breathing_enableCheckBreathing = true;
 force force kat_breathing_Etco2_Enabled = false;
 force force kat_breathing_Etco2_Units = 0;
 force force kat_breathing_HPTXBleedAmount = 0;
@@ -1723,7 +1556,7 @@ force kat_breathing_medLvl_PocketBVM = 1;
 force kat_breathing_medLvl_Pulseoximeter = 2;
 force force kat_breathing_mildValue = 0;
 force kat_breathing_NasalCannula_time = 3;
-force kat_breathing_paco2Active = false; 
+force kat_breathing_paco2Active = false;
 force force kat_breathing_PneumothoraxAlwaysVisible = false;
 force force kat_breathing_PneumothoraxArrest = false;
 force force kat_breathing_pneumothoraxChance = 0;
@@ -1760,7 +1593,7 @@ force kat_chemical_showPoisoning = true;
 force kat_chemical_tearGasDropChance = 0;
 
 // KAT - ADV Medical: Circulation
-force kat_circulation_abgEnable = false; 
+force kat_circulation_abgEnable = false;
 force force kat_circulation_AdvRhythm = false;
 force force kat_circulation_AdvRhythm_AED_ROSC_Chance = 0;
 force force kat_circulation_AdvRhythm_asystoleBloodlossThreshold = 3.6;
@@ -1771,9 +1604,9 @@ force force kat_circulation_AdvRhythm_deteriorateTimeMax = 900;
 force force kat_circulation_AdvRhythm_deteriorateTimeWeight = 180;
 force force kat_circulation_AdvRhythm_Hardcore_Enable = false;
 force force kat_circulation_AdvRhythm_hardcoreDeteriorationChance = 10;
-force kat_circulation_AdvRhythm_HTHold = false; 
+force kat_circulation_AdvRhythm_HTHold = false;
 force force kat_circulation_AdvRhythm_PEAChance = 50;
-force kat_circulation_AdvRhythm_PEAEnabled = false; 
+force kat_circulation_AdvRhythm_PEAEnabled = false;
 force force kat_circulation_AdvRhythm_VTChance = 50;
 force force kat_circulation_AED_duringCpr = true;
 force force kat_circulation_AED_MaxChance = 80;
@@ -1811,15 +1644,15 @@ force force kat_circulation_deterioratingTamponade_interval = 60;
 force force kat_circulation_enable = false;
 force force kat_circulation_enable_CPR_Chances = true;
 force force kat_circulation_enable_selfBloodDraw = 1;
-force kat_circulation_hardcoreDiagnose = false; 
+force kat_circulation_hardcoreDiagnose = false;
 force force kat_circulation_medLvl_AED = 1;
 force force kat_circulation_medLvl_AED_Station_Interact = 1;
 force force kat_circulation_medLvl_AED_X = 1;
 force kat_circulation_medLvl_BPCuff = 0;
-force kat_circulation_medLvl_StethHR = 0; 
+force kat_circulation_medLvl_StethHR = 0;
 force force kat_circulation_tamponadeChance = 10;
 force kat_circulation_treatmentTime_BPCuff = 12;
-force kat_circulation_treatmentTime_StethHR = 8; 
+force kat_circulation_treatmentTime_StethHR = 8;
 force force kat_circulation_useLocation_AED = 0;
 
 // KAT - ADV Medical: Feedback
@@ -1934,9 +1767,9 @@ force force kat_pharma_medLvl_Amiodarone = 1;
 force force kat_pharma_medLvl_ApplyIO = 1;
 force force kat_pharma_medLvl_ApplyIV = 1;
 force force kat_pharma_medLvl_Atropine = 1;
-force force kat_pharma_medLvl_Caffeine = 1; 
+force force kat_pharma_medLvl_Caffeine = 1;
 force force kat_pharma_medLvl_Carbonate = 1;
-force force kat_pharma_medLvl_CWMP = 1; 
+force force kat_pharma_medLvl_CWMP = 1;
 force force kat_pharma_medLvl_EACA = 1;
 force force kat_pharma_medLvl_EpinephrineIV = 1;
 force force kat_pharma_medLvl_Etomidate = 1;
@@ -1965,7 +1798,9 @@ force force kat_pharma_treatmentTime_Amiodarone = 3;
 force force kat_pharma_treatmentTime_ApplyIO = 2;
 force force kat_pharma_treatmentTime_ApplyIV = 5;
 force force kat_pharma_treatmentTime_Atropine = 3;
+force kat_pharma_treatmentTime_Caffeine = 7;
 force force kat_pharma_treatmentTime_Carbonate = 3;
+force kat_pharma_treatmentTime_CWMP = 7;
 force force kat_pharma_treatmentTime_EACA = 4;
 force force kat_pharma_treatmentTime_EpinephrineIV = 3;
 force force kat_pharma_treatmentTime_Etomidate = 2;
@@ -1993,7 +1828,6 @@ force kat_surgery_closedTime = 10;
 force force kat_surgery_compoundChance = 30;
 force force kat_surgery_enable_fracture = false;
 force force kat_surgery_enable_selfCheckFracture = 1;
-force kat_surgery_etomidateTime = 45;
 force force kat_surgery_fractureCheck_MedLevel = 0;
 force kat_surgery_fractureCheck_Time = 10;
 force kat_surgery_incisionTime = 10;
@@ -2020,11 +1854,6 @@ force kat_surgery_ultrasoundTime = 8;
 force kat_vitals_simpleMedical = true;
 
 // KAT - ADV Medical: Watch
-kat_watch_altitudeUnit = 0;
-kat_watch_pressureUnit = 0;
-kat_watch_temperatureUnit = 0;
-
-
 // KJW's Jetpacks
 force force jen_jetpacks_core_alarmVolume = 0.3;
 force force jen_jetpacks_core_alternateControls = false;
@@ -2043,6 +1872,10 @@ force FF_SimpleGrid_laserBatteryProxies = "Laserbatteries, rhs_LaserMag_ai";
 FF_SimpleGrid_MarkerDefinition = 10;
 FF_SimpleGrid_NoASL = false;
 FF_SimpleGrid_NoMarkerTime = false;
+force kat_watch_altitudeUnit = 0;
+force kat_watch_pressureUnit = 0;
+force kat_watch_temperatureUnit = 0;
+force kat_watch_watchInaccuracy = false;
 
 // TAW
 TAW_FOB_Debug = true;
