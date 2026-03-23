@@ -1863,15 +1863,6 @@ jen_jetpacks_core_fuelColor = [0.7,0.7,0,0.5];
 force force jen_jetpacks_core_globalFuelCoef = 0.1;
 force force jen_jetpacks_core_globalHeatCoef = 0.7;
 jen_jetpacks_core_heatColor = [0.7,0,0,0.5];
-
-
-// Simple Grid Designators
-FF_SimpleGrid_CreationType = "Vanilla";
-FF_SimpleGrid_DisableDesignators = false;
-force FF_SimpleGrid_laserBatteryProxies = "Laserbatteries, rhs_LaserMag_ai";
-FF_SimpleGrid_MarkerDefinition = 10;
-FF_SimpleGrid_NoASL = false;
-FF_SimpleGrid_NoMarkerTime = false;
 force kat_watch_altitudeUnit = 0;
 force kat_watch_pressureUnit = 0;
 force kat_watch_temperatureUnit = 0;
@@ -1894,21 +1885,6 @@ TAW_VehicleSpawner_Debug = true;
 force TAW_VehicleSpawner_Spawn_Cost = true;
 force TAW_VehicleSpawner_Spawn_Range = 100;
 force TAW_VehicleSpawner_Spawn_Time = 10;
-
-// TFAR - Animations
-radioAnims_cba_ads = true;
-radioAnims_cba_Earpieces = "[""G_WirelessEarpiece_F""]";
-radioAnims_cba_main = true;
-radioAnims_cba_preference_fadak = "Vest";
-radioAnims_cba_preference_Others = "Hand";
-radioAnims_cba_preference_pnr1000 = "Vest";
-radioAnims_cba_preference_PRC148 = "Hand";
-radioAnims_cba_preference_PRC152 = "Vest";
-radioAnims_cba_preference_PRC154 = "Hand";
-radioAnims_cba_preference_rf7800 = "Vest";
-radioAnims_cba_vehicles = true;
-radioAnims_cba_vestarmor = true;
-radioAnims_cba_vests = "[]";
 
 // TFAR - Clientside settings
 TFAR_curatorCamEars = false;
@@ -1977,11 +1953,6 @@ force TFAR_Teamspeak_Channel_Name = "TaskForceRadio";
 force TFAR_Teamspeak_Channel_Password = "123";
 force tfar_terrain_interception_coefficient = 0;
 force TFAR_voiceCone = true;
-
-// UK3CB Factions
-uk3cb_pipstretchfactor = 0;
-uk3cb_preferedOptic = 0;
-uk3cb_preferedOpticHighMag = 0;
 
 
 // TSP Breach
@@ -2152,7 +2123,6 @@ force vet_unflipping_time = 5;
 force vet_unflipping_unit_man_limit = 5;
 force vet_unflipping_unit_mass_limit = 3000;
 force vet_unflipping_vehicle_mass_limit = 100000;
-
 
 // XENO
 force XENO_Taru_Pod_Mod_Action_Allonger_A_100m_Disponible = true;
