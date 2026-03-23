@@ -1181,7 +1181,7 @@ force CF_BAI_suppression_aimingShake = 0.2;
 force CF_BAI_suppression_aimingSpeed = 0.2;
 force CF_BAI_suppression_bulletImpact = 0.1;
 force CF_BAI_suppression_commanding = 0.2;
-force CF_BAI_suppression_courage = 0.2;
+force CF_BAI_suppression_courage = 0.3;
 force CF_BAI_suppression_decay = 0.03;
 force CF_BAI_suppression_decaySleep = 5;
 force CF_BAI_suppression_disableSuppression = false;
@@ -1880,14 +1880,15 @@ force lambs_danger_disableAIPlayerGroup = false;
 force lambs_danger_disableAIPlayerGroupReaction = false;
 force lambs_danger_disableAutonomousFlares = false;
 force lambs_danger_disableAutonomousSmokeGrenades = false;
-force lambs_danger_panicChance = 0;
+force lambs_danger_panicChance = 0.0344352;
+
 
 // LAMBS Danger Eventhandlers
 force lambs_eventhandlers_ExplosionEventHandlerEnabled = true;
-force lambs_eventhandlers_ExplosionReactionTime = 9;
+force lambs_eventhandlers_ExplosionReactionTime = 5;
 
 // LAMBS Danger WP
-force lambs_wp_autoAddArtillery = false;
+force lambs_wp_autoAddArtillery = true;
 
 // LAMBS Main
 force lambs_main_combatShareRange = 200;
@@ -1903,7 +1904,7 @@ force lambs_main_disableAIFleeing = false;
 force lambs_main_disableAIGestures = false;
 force lambs_main_disableAutonomousMunitionSwitching = false;
 force lambs_main_disablePlayerGroupSuppression = false;
-force lambs_main_indoorMove = 0.1;
+force lambs_main_indoorMove = 0.2;
 force lambs_main_maxRevealValue = 1;
 force lambs_main_minFriendlySuppressionDistance = 3;
 force lambs_main_minObstacleProximity = 5;
