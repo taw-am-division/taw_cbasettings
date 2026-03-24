@@ -2148,8 +2148,8 @@ force tsp_cba_radio_vests = "[]";
 // TSP Breach
 force tsp_cba_breach = true;
 force tsp_cba_breach_ace = true;
-force tsp_cba_breach_ammo = "[""B_12Gauge_Slug_NoCartridge"",""B_12Gauge_Pellets_Submunition"",""rhs_ammo_12g_slug"",""rhs_ammo_12g_00buckshot"",""rhs_ammo_m576_buckshot"",""UK3CB_BAF_B_12Gauge_Slug"",""UK3CB_BAF_B_12Gauge_Pellets"",""CUP_12Gauge_Slug"",""CUP_B_12Gauge_Pellets"",""CUP_B_12Gauge_74Slug"",""CUP_12Gauge_Pellets_Submunition_No0_Buck"",""CUP_12Gauge_Pellets_Submunition_No00_Buck"",""ACE_12Gauge_Pellets_Submunition_No0_Buck"",""ACE_12Gauge_Pellets_Submunition_No1_Buck"",""ACE_12Gauge_Pellets_Submunition_No2_Buck"",""ACE_12Gauge_Pellets_Submunition_No3_Buck"",""ACE_12Gauge_Pellets_Submunition_No4_Buck"",""HLC_12G_Buck"",""B_12Gauge_Slug_Cartridge_lxWS"",""B_12Gauge_Pellets_Cartridge_lxWS"", ""B_12Gauge_Slug"", ""B_12Gauge_Pellets_Submunition_Cartridge""]";
-force tsp_cba_breach_ammo_multiplier = 0.05;
+force tsp_cba_breach_ammo = "[""B_12Gauge_Slug_NoCartridge"",""B_12Gauge_Pellets_Submunition"",""rhs_ammo_12g_slug"",""rhs_ammo_12g_00buckshot"",""rhs_ammo_m576_buckshot"",""UK3CB_BAF_B_12Gauge_Slug"",""UK3CB_BAF_B_12Gauge_Pellets"",""CUP_12Gauge_Slug"",""CUP_B_12Gauge_Pellets"",""CUP_B_12Gauge_74Slug"",""CUP_12Gauge_Pellets_Submunition_No0_Buck"",""CUP_12Gauge_Pellets_Submunition_No00_Buck"",""ACE_12Gauge_Pellets_Submunition_No0_Buck"",""ACE_12Gauge_Pellets_Submunition_No1_Buck"",""ACE_12Gauge_Pellets_Submunition_No2_Buck"",""ACE_12Gauge_Pellets_Submunition_No3_Buck"",""ACE_12Gauge_Pellets_Submunition_No4_Buck"",""HLC_12G_Buck"",""B_12Gauge_Slug_Cartridge_lxWS"",""B_12Gauge_Pellets_Cartridge_lxWS"",""B_12Gauge_Slug"",""B_12Gauge_Pellets_Submunition_Cartridge""]";
+force tsp_cba_breach_ammo_multiplier = 0.07;
 force tsp_cba_breach_auto = 5;
 force tsp_cba_breach_break = true;
 force tsp_cba_breach_fuse = 3;
