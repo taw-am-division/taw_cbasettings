@@ -2031,7 +2031,7 @@ force tsp_cba_animate_Bird = false;
 force tsp_cba_animate_black = "[""optic_tws_mg""]";
 force tsp_cba_animate_Breach = true;
 force tsp_cba_animate_Cancel = true;
-force tsp_cba_animate_cant = true;
+force tsp_cba_animate_cant = false;
 force tsp_cba_animate_captive = true;
 force tsp_cba_animate_carry = 5;
 force tsp_cba_animate_Cease Fire = true;
@@ -2105,7 +2105,7 @@ force tsp_cba_animate_style_sniper = "loose_";
 force tsp_cba_animate_Suicide = false;
 force tsp_cba_animate_tactical = true;
 force tsp_cba_animate_tap = true;
-force tsp_cba_animate_throw = true;
+force tsp_cba_animate_throw = false;
 force tsp_cba_animate_ThumbsDown = false;
 force tsp_cba_animate_ThumbsUp = false;
 force tsp_cba_animate_uav = true;
@@ -2121,7 +2121,7 @@ force tsp_cba_animate_Zozo = false;
 
 // TSP Animate - Radio
 force tsp_cba_radio = true;
-force tsp_cba_radio_aiming = false;
+force tsp_cba_radio_aiming = true;
 force tsp_cba_radio_headsets = "[""JCA_G_Headset_Combat_01_black_F"",""JCA_G_Headset_Combat_01_olive_F"",""JCA_G_Headset_Combat_01_sand_F"",""JCA_G_balaclava_01_headset_glasses_black_F"",""JCA_G_balaclava_01_headset_glasses_olive_F"",""JCA_G_balaclava_01_headset_glasses_sand_F"",""TAW_AUX_G_balaclava_01_headset_glasses_white_F"",""JCA_G_balaclava_01_headset_black_F"",""JCA_G_balaclava_01_headset_olive_F"",""JCA_G_balaclava_01_headset_sand_F"",""TAW_AUX_G_balaclava_01_headset_white_F"",""VSM_Balaclava2_black_Peltor""""VSM_Balaclava2_OD_Peltor""""VSM_Balaclava2_tan_Peltor"",""VSM_Balaclava2_black_Peltor_glasses"",""VSM_Balaclava2_OD_Peltor_glasses"",""VSM_Balaclava2_tan_Peltor_glasses"",""VSM_Balaclava2_black_Peltor_Goggles"",""VSM_Balaclava2_OD_Peltor_Goggles"",""VSM_Balaclava2_tan_Peltor_Goggles"",""VSM_Balaclava_tan_Peltor_Goggles"",""VSM_Balaclava_OD_Peltor_Goggles"",""VSM_Balaclava_black_Peltor_Goggles"",""VSM_Balaclava_tan_Peltor_glasses"",""VSM_Balaclava_OD_Peltor_glasses"",""VSM_Balaclava_black_Peltor_glasses"",""VSM_Balaclava_tan_Peltor"",""VSM_Balaclava_OD_Peltor"",""VSM_Balaclava_black_Peltor"",""VSM_Facemask_black_Peltor"",""VSM_Facemask_OD_Peltor"",""VSM_Facemask_tan_Peltor"",""VSM_Facemask_black_Peltor_glasses"",""VSM_Facemask_OD_Peltor_glasses"",""VSM_Facemask_tan_Peltor_glasses"",""VSM_Facemask_black_Peltor_Goggles"",""VSM_Facemask_OD_Peltor_Goggles"",""VSM_Facemask_tan_Peltor_Goggles"",""VSM_Peltor_AOR1_glasses"",""VSM_Peltor_coyote_glasses"",""VSM_Peltor_m81_glasses"",""VSM_Peltor_OCP_glasses"",""VSM_Peltor_OD_glasses"",""VSM_Shemagh_Balaclava_OD_Peltor"",""VSM_Shemagh_Balaclava_tan_Peltor"",""VSM_Shemagh_Balaclava_OD_Peltor_Glasses"",""VSM_Shemagh_Balaclava_tan_Peltor_Glasses"",""VSM_Shemagh_Balaclava_OD_Peltor_Goggles"",""VSM_Shemagh_Balaclava_tan_Peltor_Goggles"",""VSM_Shemagh_Balaclava2_OD_Peltor"",""VSM_Shemagh_Balaclava2_tan_Peltor"",""VSM_Shemagh_Balaclava2_OD_Peltor_Glasses"",""VSM_Shemagh_Balaclava2_tan_Peltor_Glasses"",""VSM_Shemagh_Balaclava2_OD_Peltor_Goggles"",""VSM_Shemagh_Balaclava2_tan_Peltor_Goggles"",""VSM_Shemagh_Facemask_OD_Peltor"",""VSM_Shemagh_Facemask_tan_Peltor"",""VSM_Shemagh_Facemask_OD_Peltor_Glasses"",""VSM_Shemagh_Facemask_tan_Peltor_Glasses"",""VSM_Shemagh_Facemask_OD_Peltor_Goggles"",""VSM_Shemagh_Facemask_tan_Peltor_Goggles"",""G_WirelessEarpiece_F""]";
 force tsp_cba_radio_helmets = "[""JCA_H_Headset_Combat_01_black_F"",""JCA_H_Headset_Combat_01_olive_F"",""JCA_H_Headset_Combat_01_sand_F"",""JCA_H_balaclava_01_headset_glasses_black_F"",""JCA_H_balaclava_01_headset_glasses_olive_F"",""JCA_H_balaclava_01_headset_glasses_sand_F"",""TAW_AUX_H_balaclava_01_headset_glasses_white_F"",""JCA_H_balaclava_01_headset_black_F"",""JCA_H_balaclava_01_headset_olive_F"",""JCA_H_balaclava_01_headset_sand_F"",""TAW_AUX_H_balaclava_01_headset_white_F"",""FIR_JHMCS_Type2"",""FIR_JHMCS_II"",""FIR_JHMCS"",""TAW_AUX_PilotHelmetHeli_tan"",""TAW_AUX_PilotHelmetHeli_mc"",""TAW_AUX_PilotHelmetHeli_mcw"",""TAW_AUX_PilotHelmetHeli_mca"",""TAW_AUX_PilotHelmetHeli_green"",""TAW_AUX_PilotHelmetHeli_black"",""TAW_AUX_CrewHelmetHeli_tan"",""TAW_AUX_CrewHelmetHeli_mc"",""TAW_AUX_CrewHelmetHeli_mcw"",""TAW_AUX_CrewHelmetHeli_mca"",""TAW_AUX_CrewHelmetHeli_green"",""TAW_AUX_CrewHelmetHeli_black"",""JCA_H_Headset_Combat_01_sand_F"",""JCA_H_Headset_Combat_01_black_F"",""JCA_H_Headset_Combat_01_olive_F"",""NCR_Helmet15th"",""NCR_Helmet15thBlack"",""NCR_Helmet15thWhite"",""NCR_CVCHelmet15th"",""NCR_CVCHelmet15thBlack"",""NCR_CVCHelmet15thGogglesBlack"",""NCR_CVCHelmet15thGoggles"",""NCR_CVCHelmet15thWhite"",""NCR_CVCHelmet15thGogglesWhite"",""NCR_CVCHelmet15th_Allfather"",""NCR_CVCHelmet15th_Foxo"",""NCR_CVCHelmet15th_Lance"",""NCR_CVCHelmet15th_Roe"",""NCR_CVCHelmet15th_Sunny"",""NCR_CVCHelmet15th_Tato"",""NCR_CVCHelmet15th_Tex"",""NCR_ReconHelmet"",""NCR_ReconHelmetBrown"",""NCR_ReconHelmetGray"",""RA_Slater_helmet"",""RA_Marine_helmet"",""RA_Ranger_helmet"",""power_armor_helmet_t45d_dow""]";
 force tsp_cba_radio_preference_acre_bf888s = "Model";
