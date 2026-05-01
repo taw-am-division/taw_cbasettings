@@ -1116,20 +1116,20 @@ force CF_BAI_subskills_minimum_aimingShake = 0.1;
 force CF_BAI_subskills_minimum_aimingSpeed = 0.5;
 force CF_BAI_subskills_minimum_commanding = 0.5;
 force CF_BAI_subskills_minimum_courage = 0.1;
-force CF_BAI_subskills_minimum_general = 0.4;
+force CF_BAI_subskills_minimum_general = 0.3;
 force CF_BAI_subskills_minimum_reloadSpeed = 0.5;
-force CF_BAI_subskills_minimum_spotDistance = 0.35;
+force CF_BAI_subskills_minimum_spotDistance = 0.25;
 force CF_BAI_subskills_minimum_spotTime = 0.1;
-force CF_BAI_subskills_sleep = 30;
-force CF_BAI_subskills_terrain_maximum_default = 30;
+force CF_BAI_subskills_sleep = 10;
+force CF_BAI_subskills_terrain_maximum_default = 24;
 force CF_BAI_subskills_terrain_maximum_world_code = "[[""pja310"",25],[""Panthera3"",25]]";
 force CF_BAI_subskills_terrain_range = 30;
 
 // CF_BAI_boost
 force CF_BAI_boost_bulletsToMaxBoost = 5;
 force CF_BAI_boost_disableBoost = false;
-force CF_BAI_boost_maxBoost = 1.1;
-force CF_BAI_boost_minimumShotDistance = 300;
+force CF_BAI_boost_maxBoost = 1.3;
+force CF_BAI_boost_minimumShotDistance = 200;
 force CF_BAI_boost_minimumShotInterval = 2;
 force CF_BAI_boost_targetChangeSleepTime = 0.1;
 force CF_BAI_boost_toleranceRange = 50;
@@ -1142,7 +1142,7 @@ force CF_BAI_death_messageSideChat = false;
 force CF_BAI_death_messageSystemChat = false;
 
 // CF_BAI_detect
-force CF_BAI_detect_aiplayervision_max_distance = 1200;
+force CF_BAI_detect_aiplayervision_max_distance = 1000;
 force CF_BAI_detect_aivision_aware_chance = 0.9;
 force CF_BAI_detect_aivision_aware_knowledge = 1;
 force CF_BAI_detect_aivision_careless_chance = 0.5;
@@ -1155,7 +1155,7 @@ force CF_BAI_detect_aivision_nooptics_chance = 0.5;
 force CF_BAI_detect_aivision_nooptics_knowledge = 0.5;
 force CF_BAI_detect_aivision_nooptics_range = 400;
 force CF_BAI_detect_aivision_nvg_percentage = 0.25;
-force CF_BAI_detect_aivision_optics_range = 1200;
+force CF_BAI_detect_aivision_optics_range = 1000;
 force CF_BAI_detect_aivision_safe_chance = 0.75;
 force CF_BAI_detect_aivision_safe_knowledge = 1;
 force CF_BAI_detect_aivision_stealth_chance = 0.75;
@@ -1163,17 +1163,17 @@ force CF_BAI_detect_aivision_stealth_knowledge = 0.75;
 force CF_BAI_detect_disableDetect = false;
 force CF_BAI_detect_environmentConiditions_fog = 0.9;
 force CF_BAI_detect_environmentConiditions_nightTime = 0.5;
-force CF_BAI_detect_environmentConiditions_rain = 0.2;
+force CF_BAI_detect_environmentConiditions_rain = 0.3;
 force CF_BAI_detect_overall_visibility_multiplier = 1;
-force CF_BAI_detect_playerVisibility_crouch_chance = 0.5;
+force CF_BAI_detect_playerVisibility_crouch_chance = 0.55;
 force CF_BAI_detect_playerVisibility_crouch_knowledge = 1;
-force CF_BAI_detect_playerVisibility_movement = 0.5;
+force CF_BAI_detect_playerVisibility_movement = 0.55;
 force CF_BAI_detect_playerVisibility_movement_knowledge = 1;
 force CF_BAI_detect_playerVisibility_prone_chance = 0.025;
 force CF_BAI_detect_playerVisibility_prone_knowledge = 1;
 force CF_BAI_detect_playerVisibility_standing_chance = 1;
 force CF_BAI_detect_playerVisibility_standing_knowledge = 1;
-force CF_BAI_detect_playerVisibility_terrain_count = 4;
+force CF_BAI_detect_playerVisibility_terrain_count = 3;
 
 // CF_BAI_suppression
 force CF_BAI_suppression_aimingAccuracy = 0.2;
