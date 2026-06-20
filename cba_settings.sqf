@@ -1934,12 +1934,12 @@ force force kat_surgery_enable_fracture = false;
 force force kat_surgery_enable_selfCheckFracture = 1;
 force force kat_surgery_fractureCheck_MedLevel = 0;
 force force kat_surgery_fractureCheck_Time = 10;
-force force force kat_surgery_incisionTime = 10;
+force force kat_surgery_incisionTime = 10;
 force force kat_surgery_intermediateTime = 8;
 force force kat_surgery_npwt_MedLevel = 2;
 force force kat_surgery_npwtLocation = 3;
 force force kat_surgery_npwtTime = 10;
-force force at_surgery_openTime = 15;
+force force kat_surgery_openTime = 15;
 force force kat_surgery_pericardialtap_MedLevel = 2;
 force force kat_surgery_pericardialtapLocation = 3;
 force force kat_surgery_pericardialtapTime = 8;
@@ -1955,9 +1955,6 @@ force force kat_surgery_ultrasoundLocation = 3;
 force force kat_surgery_ultrasoundTime = 8;
 
 // KAT - ADV Medical: Vitals
-force kat_vitals_basicDiagnosticTime = 10;
-force kat_vitals_enableBasicDiagnostic = true;
-force kat_vitals_enableFluidShift = true;
 force force kat_vitals_basicDiagnosticTime = 10;
 force force kat_vitals_enableBasicDiagnostic = true;
 force force kat_vitals_enableFluidShift = true;
