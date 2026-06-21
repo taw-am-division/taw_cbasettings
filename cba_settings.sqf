@@ -1066,10 +1066,10 @@ ace_reloadlaunchers_displayStatusText = true;
 ace_weaponselect_displayText = false;
 
 // ACE Weather
-force ace_weather_enabled = false;
+force force ace_weather_enabled = true;
 ace_weather_showCheckAirTemperature = true;
-force force ace_weather_updateInterval = 60;
-force force ace_weather_windSimulation = false;
+force force ace_weather_updateInterval = 180;
+force force ace_weather_windSimulation = true;
 
 // ACE Wind Deflection
 force force ace_winddeflection_enabled = true;
