@@ -2020,16 +2020,25 @@ force lambs_main_radioGuer = 500;
 force lambs_main_radioShout = 100;
 force lambs_main_radioWest = 500;
 
-// TAW
-force taw_aux_axe_setting_alwaysHideTree = false;
-force taw_aux_axe_setting_maxTime = 40;
-force taw_aux_axe_setting_timeFactor = 1;
+// TAW - Fortify
 TAW_FOB_Debug = false;
 force TAW_FOB_List = "[""B_Truck_01_FOB_F"",""B_Slingload_01_FOB_F""]";
 force TAW_FOB_Range = 150;
 force TAW_FOB_Resupply = true;
 force TAW_FOB_Spawn = true;
 force TAW_FOB_Teleport = true;
+force TAW_Supplies_List = "[[""TAW_Supplies_Barrel"",500],[""TAW_Supplies_Box"",500],[""TAW_Supplies_Ammo"",500],[""TAW_Supplies_Cash"",500],[""TAW_Supplies_Gold"",500]]";
+force TAW_VehicleSpawner_Air_List = "[[""B_Plane_Fighter_01_F"",500],[""FIR_AV8B"",500],[""RHSGREF_A29B_HIDF"",300],[""USAF_A10"",600],[""JS_JC_FA18E"",525],[""JS_JC_FA18F"",525],[""USAF_F22"",550],[""USAF_F35A"",650],[""FIR_F16C"",550],[""FIR_F16D"",575],[""ua_haf_jas_39"",450],[""rhs_l159_cdf_b_CDF"",350],[""JK_B_US_C5M_Super_Galaxy_F"",700],[""JK_B_US_C5B_Galaxy_F"",700],[""JK_B_US_C5M_Super_Galaxy_F"",750],[""USAF_C130J"",600],[""STmod_airplane_AC130J"",800],[""STmod_airplane_MC130J"",600],[""STmod_airplane_MC130J_VIV"",600],[""RHS_UH60M_d"",225],[""B_Heli_Transport_01_F"",200],[""Heli_Transport_01_pylons_laser_base_mk2"",250],[""RHS_MELB_MH6M"",175],[""RHS_MELB_AH6M"",275],[""RHS_MELB_AH6M_MK2"",275],[""rhsusf_CH53E_USMC"",350],[""TF373_SOAR_MH47G"",300],[""B_Heli_Transport_03_F"",300],[""RHS_AH64D"",600],[""O_Heli_Attack_02_dynamicLoadout_F"",600],[""B_Heli_Attack_01_pylons_dynamicLoadout_F"",400],[""RHS_AH1Z"",450],[""Valor_Turret_Transport_CrewGun_F"",350],[""Valor_Attack_F"",400],[""Valor_Transport_Armed_F"",275],[""B_T_VTOL_02_infantry_dynamicLoadout_F"",500],[""B_T_VTOL_02_vehicle_dynamicLoadout_F"",500],[""B_T_VTOL_01_infantry_F"",250],[""B_T_VTOL_01_vehicle_F"",250],[""B_T_VTOL_01_armed_F"",400],[""B_Heli_Transport_04_F"",200]]";
+force TAW_VehicleSpawner_Boat_List = "[[""B_Boat_Transport_01_F"",100],[""B_Boat_Armed_01_miningun_F"",200],[""rhsusf_mkvsoc"",400],[""B_SDV_01_F"",100]]";
+force TAW_VehicleSpawner_Car_List = "[[""rhsusf_m1151_m2_v1_usarmy_d"",175],[""rhsusf_m1240a1_m240_uik_usarmy_d"",200],[""B_MRAP_01_F"",225],[""B_MRAP_01_hmg_F"",275],[""B_LSV_01_unarmed_F"",125],[""B_LSV_01_armed_F"",175],[""B_LSV_02_unarmed_F_custom_recon"",125],[""B_LSV_02_armed_F_custom_recon"",175],[""B_LSV_02_AT_F_custom_recon"",225],[""B_Quadbike_01_F"",50],[""B_Truck_01_transport_F"",250],[""B_APC_Tracked_01_AA_F"",400]]";
+TAW_VehicleSpawner_Debug = false;
+force TAW_VehicleSpawner_Drone_List = "[[""rksla3_uav_mq9_reaper_generic"",300],[""USAF_MQ9"",300],[""USAF_RQ4A"",200],[""B_T_UAV_03_dynamicLoadout_F_mk2"",400],[""B_UAV_05_F_mk2"",400],[""B_UAV_02_dynamicLoadout_F_mk2"",400],[""B_UGV_01_rcws_F"",150],[""GX_B_MQ8B_UAV_RECON"",125],[""GX_B_MQ8B_UAV_RECON_SEATED"",150],[""GX_B_MQ8B_UAV_ARMED"",200],[""GX_B_THEMIS_UGV_CARGO"",125]]";
+force TAW_VehicleSpawner_Spawn_Cost = true;
+force TAW_VehicleSpawner_Spawn_Range = 100;
+force TAW_VehicleSpawner_Spawn_Time = 10;
+force TAW_VehicleSpawner_Support_List = "[[""B_Truck_01_FOB_F"",800],[""B_Slingload_01_FOB_F"",800],[""B_Slingload_01_Medevac_F"",250],[""TAW_Resupply_ACEArsenal"",50],[""B_Truck_01_fuel_F"",250],[""B_Truck_01_ammo_F"",250],[""B_Truck_01_flatbed_F"",100],[""Land_Pod_Heli_Transport_04_bench_black_F"",50],[""Land_Pod_Heli_Transport_04_covered_black_F"",75],[""Land_Pod_Heli_Transport_04_medevac_black_F"",75],[""Land_Pod_Heli_Transport_04_fuel_black_F"",200],[""Land_Pod_Heli_Transport_04_repair_black_F"",200],[""Land_Pod_Heli_Transport_04_ammo_black_F"",200],[""B_SAM_System_03_F"",250],[""B_Radar_System_01_F"",250],[""CRAM_AAA_System_01_base_F"",250],[""B_SAM_System_01_F"",300],[""RHS_Stinger_AA_pod_D"",100],[""E22_B_JC_N_SAM_system_01_F"",300],[""E22_B_JC_N_AAA_System_01_F"",250],[""E22_B_JC_N_Radar_system_01_F"",250]]";
+
+// TAW - Gear Restrictions
 force TAW_GEAR_RESTRICTION_Ammobearer_Items = "[""TAW_AUX_Backpack_Bergen_mca_F"",""TAW_AUX_Backpack_Bergen_mc_F"",""TAW_AUX_Backpack_Bergen_mcw_F""]";
 force TAW_GEAR_RESTRICTION_AT_Weapons = "[""launch_RPG32_F"", ""launch_RPG32_ghex_F"", ""launch_RPG32_NATO"", ""launch_RPG7_F"", ""launch_I_Titan_F"", ""launch_O_Titan_ghex_F"", ""launch_O_Titan_F"", ""launch_B_Titan_F"", ""launch_B_Titan_tna_F"", ""launch_O_Titan_short_F"", ""launch_O_Titan_short_ghex_F"", ""launch_I_Titan_short_F"", ""launch_B_Titan_short_F"", ""launch_B_Titan_short_tna_F"", ""launch_O_Titan_short_ghex_F"", ""rhs_weap_fgm148"", ""rhs_weap_smaw"", ""rhs_weap_smaw_green"", ""rhs_weap_rpg7"", ""rhs_weap_maaws"", ""launch_MRAWS_green_F"", ""launch_MRAWS_olive_F"", ""launch_MRAWS_sand_F"", ""launch_O_Vorona_brown_F"", ""launch_O_Verona_green_F"", ""JCA_launch_Mk153_black_F"", ""JCA_launch_Mk153_olive_F"", ""JCA_launch_Mk153_sand_F"", ""JCA_launch_Mk153_PWS_black_F"", ""JCA_launch_Mk153_PWS_olive_F"", ""JCA_launch_Mk153_PWS_sand_F""]";
 force TAW_GEAR_RESTRICTION_DroneSpecialist_Items = "[""B_UavTerminal""]";
@@ -2042,16 +2051,32 @@ force TAW_GEAR_RESTRICTION_Marksman_Weapons = "[""arifle_MSBS65_Mark_sand_F"",""
 force TAW_GEAR_RESTRICTION_Rifleman_Scopes = "[""ACE_optic_SOS_2D"",""JCA_optic_CRBS_black"",""rhsusf_acc_ACOG_MDO"",""optic_SOS"",""optic_SOS_khk_F"",""ACE_optic_Arco_2D"",""ACE_optic_MRCO_2D""]";
 force TAW_GEAR_RESTRICTION_Rifleman_Weapons = "[""lot_SCAR_short_grip_black_F"",""lot_SCAR_short_grip_khaki_F"",""lot_SCAR_short_grip_F"",""lot_SCAR_grip_black_F"",""lot_SCAR_grip_khaki_F"",""lot_SCAR_grip_F"",""lot_SCAR_GL_black_F"",""lot_SCAR_GL_khaki_F"",""lot_SCAR_GL_F"",""srifle_DMR_06_olive_F"",""srifle_DMR_06_camo_F"",""srifle_DMR_06_hunter_F"",""rhs_weap_m14_ris_d"",""rhs_weap_m14_ris_wd"",""rhs_weap_m14_rail_d"",""rhs_weap_m14_rail_wd""]";
 force TAW_GEAR_RESTRICTION_Support_Items = "[""TFAR_anprc163""]";
-force TAW_Supplies_List = "[[""TAW_Supplies_Barrel"",500],[""TAW_Supplies_Box"",500],[""TAW_Supplies_Ammo"",500],[""TAW_Supplies_Cash"",500],[""TAW_Supplies_Gold"",500]]";
-force TAW_VehicleSpawner_Air_List = "[[""B_Plane_Fighter_01_F"",500],[""FIR_AV8B"",500],[""RHSGREF_A29B_HIDF"",300],[""USAF_A10"",600],[""JS_JC_FA18E"",525],[""JS_JC_FA18F"",525],[""USAF_F22"",550],[""USAF_F35A"",650],[""FIR_F16C"",550],[""FIR_F16D"",575],[""ua_haf_jas_39"",450],[""rhs_l159_cdf_b_CDF"",350],[""JK_B_US_C5M_Super_Galaxy_F"",700],[""JK_B_US_C5B_Galaxy_F"",700],[""JK_B_US_C5M_Super_Galaxy_F"",750],[""USAF_C130J"",600],[""STmod_airplane_AC130J"",800],[""STmod_airplane_MC130J"",600],[""STmod_airplane_MC130J_VIV"",600],[""RHS_UH60M_d"",225],[""B_Heli_Transport_01_F"",200],[""Heli_Transport_01_pylons_laser_base_mk2"",250],[""RHS_MELB_MH6M"",175],[""RHS_MELB_AH6M"",275],[""RHS_MELB_AH6M_MK2"",275],[""rhsusf_CH53E_USMC"",350],[""TF373_SOAR_MH47G"",300],[""B_Heli_Transport_03_F"",300],[""RHS_AH64D"",600],[""O_Heli_Attack_02_dynamicLoadout_F"",600],[""B_Heli_Attack_01_pylons_dynamicLoadout_F"",400],[""RHS_AH1Z"",450],[""Valor_Turret_Transport_CrewGun_F"",350],[""Valor_Attack_F"",400],[""Valor_Transport_Armed_F"",275],[""B_T_VTOL_02_infantry_dynamicLoadout_F"",500],[""B_T_VTOL_02_vehicle_dynamicLoadout_F"",500],[""B_T_VTOL_01_infantry_F"",250],[""B_T_VTOL_01_vehicle_F"",250],[""B_T_VTOL_01_armed_F"",400],[""B_Heli_Transport_04_F"",200]]";
-force TAW_VehicleSpawner_Boat_List = "[[""B_Boat_Transport_01_F"",100],[""B_Boat_Armed_01_miningun_F"",200],[""rhsusf_mkvsoc"",400],[""B_SDV_01_F"",100]]";
-force TAW_VehicleSpawner_Car_List = "[[""rhsusf_m1151_m2_v1_usarmy_d"",175],[""rhsusf_m1240a1_m240_uik_usarmy_d"",200],[""B_MRAP_01_F"",225],[""B_MRAP_01_hmg_F"",275],[""B_LSV_01_unarmed_F"",125],[""B_LSV_01_armed_F"",175],[""B_LSV_02_unarmed_F_custom_recon"",125],[""B_LSV_02_armed_F_custom_recon"",175],[""B_LSV_02_AT_F_custom_recon"",225],[""B_Quadbike_01_F"",50],[""B_Truck_01_transport_F"",250],[""B_APC_Tracked_01_AA_F"",400]]";
-TAW_VehicleSpawner_Debug = false;
-force TAW_VehicleSpawner_Drone_List = "[[""rksla3_uav_mq9_reaper_generic"",300],[""USAF_MQ9"",300],[""USAF_RQ4A"",200],[""B_T_UAV_03_dynamicLoadout_F_mk2"",400],[""B_UAV_05_F_mk2"",400],[""B_UAV_02_dynamicLoadout_F_mk2"",400],[""B_UGV_01_rcws_F"",150],[""GX_B_MQ8B_UAV_RECON"",125],[""GX_B_MQ8B_UAV_RECON_SEATED"",150],[""GX_B_MQ8B_UAV_ARMED"",200],[""GX_B_THEMIS_UGV_CARGO"",125]]";
-force TAW_VehicleSpawner_Spawn_Cost = true;
-force TAW_VehicleSpawner_Spawn_Range = 100;
-force TAW_VehicleSpawner_Spawn_Time = 10;
-force TAW_VehicleSpawner_Support_List = "[[""B_Truck_01_FOB_F"",800],[""B_Slingload_01_FOB_F"",800],[""B_Slingload_01_Medevac_F"",250],[""TAW_Resupply_ACEArsenal"",50],[""B_Truck_01_fuel_F"",250],[""B_Truck_01_ammo_F"",250],[""B_Truck_01_flatbed_F"",100],[""Land_Pod_Heli_Transport_04_bench_black_F"",50],[""Land_Pod_Heli_Transport_04_covered_black_F"",75],[""Land_Pod_Heli_Transport_04_medevac_black_F"",75],[""Land_Pod_Heli_Transport_04_fuel_black_F"",200],[""Land_Pod_Heli_Transport_04_repair_black_F"",200],[""Land_Pod_Heli_Transport_04_ammo_black_F"",200],[""B_SAM_System_03_F"",250],[""B_Radar_System_01_F"",250],[""CRAM_AAA_System_01_base_F"",250],[""B_SAM_System_01_F"",300],[""RHS_Stinger_AA_pod_D"",100],[""E22_B_JC_N_SAM_system_01_F"",300],[""E22_B_JC_N_AAA_System_01_F"",250],[""E22_B_JC_N_Radar_system_01_F"",250]]";
+
+// TAW - Markers
+force force taw_aux_markers_Crosshair_Enabled = 1;
+force force taw_aux_markers_Crosshair_TurretEnabled = 1;
+force force taw_aux_markers_HUD_AllowedDrones = "[]";
+force force taw_aux_markers_HUD_AllowedVehicles = "[""Plane_Base_F"",""Helicopter_Base_F""]";
+taw_aux_markers_HUD_DefaultOpacity = 1;
+taw_aux_markers_HUD_DefaultSize = 1.13167;
+taw_aux_markers_HUD_Enabled = true;
+force force taw_aux_markers_HUD_HelmetList = "[""H_CrewHelmetHeli_B"",""H_PilotHelmetFighter_B"",""H_PilotHelmetHeli_B"",""rhsusf_hgu56p"",""RHS_jetpilot_usaf"",""rhsusf_ihadss""]";
+taw_aux_markers_HUD_MaxDistance = 7000;
+taw_aux_markers_HUD_Zeus = true;
+force force taw_aux_markers_RequiredGPSList = "[""ItemGPS"",""B_UavTerminal"",""O_UavTerminal"",""I_UavTerminal"",""C_UavTerminal"",""I_E_UavTerminal"",""ItemcTab"",""ItemAndroid"",""ItemMicroDAGR"",""ACE_DAGR"",""ACE_microDAGR""]";
+force force taw_aux_markers_RequiredRangefinderList = "[""Laserdesignator"", ""Rangefinder"", ""ACE_VectorDay"", ""ACE_Vector"", ""ACE_Yardage450"", ""ACE_MX2A""]";
+taw_aux_markers_SelfMarking_Colour = "Default";
+force force taw_aux_markers_SelfMarking_Enabled = 1;
+taw_aux_markers_SelfMarking_Icon = "mil_box";
+taw_aux_markers_SquadMarking_Colour = "Default";
+force force taw_aux_markers_SquadMarking_Enabled = 1;
+taw_aux_markers_SquadMarking_Icon = "b_inf";
+
+// TAW - Utility Items
+force taw_aux_axe_setting_alwaysHideTree = false;
+force taw_aux_axe_setting_maxTime = 40;
+force taw_aux_axe_setting_timeFactor = 1;
+
 
 // TFAR - Clientside settings
 TFAR_curatorCamEars = false;
