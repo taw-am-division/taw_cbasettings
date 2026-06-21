@@ -817,7 +817,7 @@ force ace_medical_treatment_woundReopenChance = 0.7;
 force ace_medical_treatment_woundStitchTime = 5;
 
 // ACE Name Tags
-force ace_nametags_ambientBrightnessAffectViewDist = 1;
+force force ace_nametags_ambientBrightnessAffectViewDist = 1;
 ace_nametags_defaultNametagColor = [0.77,0.51,0.08,1];
 ace_nametags_nametagColorBlue = [0.67,0.67,1,1];
 ace_nametags_nametagColorGreen = [0.67,1,0.67,1];
@@ -843,21 +843,21 @@ force force ace_nightvision_noiseScaling = 0.0855235;
 ace_nightvision_shutterEffects = true;
 
 // ACE Overheating
-force ace_overheating_cookoffCoef = 0;
-force ace_overheating_coolingCoef = 1;
+force force ace_overheating_cookoffCoef = 0;
+force force ace_overheating_coolingCoef = 1;
 ace_overheating_displayTextOnJam = true;
 force force ace_overheating_enabled = true;
-force ace_overheating_heatCoef = 1;
-force ace_overheating_jamChanceCoef = 1;
+force force ace_overheating_heatCoef = 1;
+force force ace_overheating_jamChanceCoef = 1;
 force force ace_overheating_overheatingDispersion = true;
-force ace_overheating_overheatingRateOfFire = true;
+force force ace_overheating_overheatingRateOfFire = true;
 ace_overheating_particleEffectsAndDispersionDistance = 3000;
 ace_overheating_showParticleEffects = true;
 force force ace_overheating_showParticleEffectsForEveryone = false;
-force ace_overheating_suppressorCoef = 1;
+force force ace_overheating_suppressorCoef = 1;
 force force ace_overheating_unJamFailChance = 0.1;
-force ace_overheating_unJamOnreload = true;
-force ace_overheating_unJamOnSwapBarrel = true;
+force force ace_overheating_unJamOnreload = true;
+force force ace_overheating_unJamOnSwapBarrel = true;
 
 // ACE Pointing
 force force ace_finger_enabled = true;
@@ -878,7 +878,7 @@ force force ace_pylons_timePerPylon = 1.5;
 
 // ACE Quick Mount
 force force ace_quickmount_distance = 3;
-force ace_quickmount_enabled = true;
+force force ace_quickmount_enabled = true;
 ace_quickmount_enableMenu = 3;
 ace_quickmount_priority = 0;
 force force ace_quickmount_speed = 18;
