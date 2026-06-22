@@ -2072,6 +2072,11 @@ taw_aux_markers_SquadMarking_Colour = "Default";
 force force taw_aux_markers_SquadMarking_Enabled = 1;
 taw_aux_markers_SquadMarking_Icon = "b_inf";
 
+// TAW - Medical Extension
+force force taw_aux_medical_FacilityBandageTimeFactor = 0.2;
+force force taw_aux_medical_FacilityMedicalTimeFactor = 0.2;
+force force taw_aux_medical_MedicalBag_Timeout = 300;
+
 // TAW - Utility Items
 force taw_aux_axe_setting_alwaysHideTree = false;
 force taw_aux_axe_setting_maxTime = 40;
