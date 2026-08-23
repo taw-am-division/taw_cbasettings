@@ -1623,13 +1623,34 @@ kat_breathing_stethoscopeSoundVolume = 2;
 force force kat_breathing_TensionHemothoraxAlwaysVisible = false;
 
 // KAT - ADV Medical: Chemical
+force force kat_chemical_availCBRNUniform = "'U_C_CBRN_Suit_01_Blue_F','U_C_CBRN_Suit_01_White_F','U_B_CBRN_Suit_01_Wdl_F','U_B_CBRN_Suit_01_MTP_F','U_B_CBRN_Suit_01_Tropic_F','U_I_CBRN_Suit_01_AAF_F','U_I_E_CBRN_Suit_01_EAF_F','JCA_U_NBCD_Suit_01_black_F','JCA_U_NBCD_Suit_01_olive_F','JCA_U_NBCD_Suit_01_sand_F','JCA_U_NBCD_Suit_01_White_F','JCA_U_NBCD_Suit_01_Yellow_F','JCA_U_NBCD_Suit_01_hood_black_F','JCA_U_NBCD_Suit_01_hood_olive_F','JCA_U_NBCD_Suit_01_hood_sand_F','JCA_U_NBCD_Suit_01_hood_White_F','JCA_U_NBCD_Suit_01_hood_Yellow_F'";
 force force kat_chemical_availGasmask = "'G_AirPurifyingRespirator_01_F','G_AirPurifyingRespirator_02_olive_F','G_AirPurifyingRespirator_02_sand_F','G_RegulatorMask_F', 'kat_mask_M50', 'kat_mask_M04', 'JCA_G_AirPurifyingRespirator_03_black_clear_F', 'JCA_G_AirPurifyingRespirator_03_olive_clear_F', 'JCA_G_AirPurifyingRespirator_03_sand_clear_F', 'JCA_G_AirPurifyingRespirator_03_black_tinted_F', 'JCA_G_AirPurifyingRespirator_03_olive_tinted_F', 'JCA_G_AirPurifyingRespirator_03_sand_tinted_F', 'JCA_G_AirPurifyingRespirator_04_black_clear_F', 'JCA_G_AirPurifyingRespirator_04_olive_clear_F', 'JCA_G_AirPurifyingRespirator_04_sand_clear_F', 'JCA_G_AirPurifyingRespirator_04_black_tinted_F', 'JCA_G_AirPurifyingRespirator_04_olive_tinted_F', 'JCA_G_AirPurifyingRespirator_04_sand_tinted_F'";
-force force kat_chemical_gasmask_durability = 1200;
+force force kat_chemical_chlorine_onsetTime = 30;
+force force kat_chemical_cloudIdMemoryTime = 30;
+force force kat_chemical_contaminationTickInterval = 40;
+force force kat_chemical_deconActionTime = 8;
+force force kat_chemical_enableParticleEffects = true;
+force force kat_chemical_enableSmellHint = true;
+force force kat_chemical_gasmask_durability = 900;
 force force kat_chemical_gasMaskSoundVolume = 0;
-force force kat_chemical_infectionTime = 10;
+force force kat_chemical_m8PaperActionTime = 3;
+force force kat_chemical_m8PaperDisplayTime = 8;
 force force kat_chemical_maskStaminaLoss = false;
+force force kat_chemical_mustard_burnOnsetMax = 240;
+force force kat_chemical_mustard_burnOnsetMin = 100;
+force force kat_chemical_mustard_eyeOnsetMax = 100;
+force force kat_chemical_mustard_eyeOnsetMin = 40;
+force force kat_chemical_phosgene_onsetMax = 360;
+force force kat_chemical_phosgene_onsetMin = 120;
+force force kat_chemical_sarin_cardiacArrestTime = 90;
+force force kat_chemical_sarin_unconsciousTime = 60;
+force force kat_chemical_sarin_vomitTime = 30;
 force force kat_chemical_showPoisoning = true;
 force force kat_chemical_tearGasDropChance = 0;
+force force kat_chemical_vx_cardiacArrestTime = 240;
+force force kat_chemical_vx_cloudLifetime = 600;
+force force kat_chemical_vx_unconsciousTime = 120;
+force force kat_chemical_vx_vomitTime = 60;
 
 // KAT - ADV Medical: Circulation
 force kat_circulation_abgEnable = false;
