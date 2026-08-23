@@ -170,10 +170,10 @@ force force ace_gforces_coef = 0.85;
 force force ace_gforces_enabledFor = 1;
 
 // ACE Goggles
-force ace_goggles_drawOverlay = true;
-force force ace_goggles_effects = 2;
+ace_goggles_drawOverlay = true;
+ace_goggles_effects = 2;
 ace_goggles_showClearGlasses = false;
-force force ace_goggles_showInThirdPerson = true;
+ace_goggles_showInThirdPerson = true;
 
 // ACE Grenades
 force ace_grenades_convertExplosives = true;
