@@ -696,6 +696,20 @@ force force ace_zeus_revealMines = 0;
 force force ace_zeus_zeusAscension = false;
 force force ace_zeus_zeusBird = false;
 
+// Advanced Towing
+force force prae_tow_setting_allowedRopeClasses = "ACE_rope3,ACE_rope6,ACE_rope12,ACE_rope15,ACE_rope18,ACE_rope27,ACE_rope36";
+force force prae_tow_setting_allowVehicleCargo = true;
+force force prae_tow_setting_allowVehicleChains = true;
+force force prae_tow_setting_enabled = true;
+force force prae_tow_setting_enableRopeBreaking = true;
+force force prae_tow_setting_maxRopeLength = 25;
+force force prae_tow_setting_maxTowMassRatio = 1.5;
+force force prae_tow_setting_minDamage = 0.3;
+force force prae_tow_setting_onlyDamagedVehicles = false;
+force force prae_tow_setting_preferPlayerInventory = true;
+force force prae_tow_setting_requireRopeItem = true;
+force force prae_tow_setting_towingMaxSpeed = 40;
+
 // BettIR
 BettIR_ViewDistance = 300;
 
