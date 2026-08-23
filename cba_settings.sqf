@@ -1960,6 +1960,9 @@ force force fluss_reach_med_vehicle = true;
 force force fluss_reach_med_vehicleRadius = 7;
 force force fluss_reach_med_vest = true;
 
+// STmod_AC130J
+STmod_airplane_Autopilotmodeflag_mns = false;
+
 // LAMBS Danger
 force lambs_danger_cqbRange = 60;
 force lambs_danger_disableAIAutonomousManoeuvres = false;
