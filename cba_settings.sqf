@@ -1909,6 +1909,15 @@ force kat_watch_pressureUnit = 0;
 force kat_watch_temperatureUnit = 0;
 force kat_watch_watchInaccuracy = false;
 
+// LAxemann's Suppress
+force L_Suppress_buildup = 0.1;
+force L_Suppress_enabled = true;
+force L_Suppress_flyByEffects = true;
+force L_Suppress_flyByIntensity = 0.1;
+force L_Suppress_halting = true;
+force L_Suppress_intensity = 0.1;
+force L_Suppress_playerSwabEnabled = true;
+force L_Suppress_recovery = 3;
 // LAMBS Danger
 force lambs_danger_cqbRange = 60;
 force lambs_danger_disableAIAutonomousManoeuvres = false;
