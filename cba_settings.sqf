@@ -2294,8 +2294,8 @@ force tsp_cba_radio_vests = "[]";
 // TSP Breach
 force tsp_cba_breach = true;
 force tsp_cba_breach_ace = true;
-force tsp_cba_breach_ammo = "[""B_12Gauge_Slug_NoCartridge"",""B_12Gauge_Pellets_Submunition"",""rhs_ammo_12g_slug"",""rhs_ammo_12g_00buckshot"",""rhs_ammo_m576_buckshot"",""UK3CB_BAF_B_12Gauge_Slug"",""UK3CB_BAF_B_12Gauge_Pellets"",""CUP_12Gauge_Slug"",""CUP_B_12Gauge_Pellets"",""CUP_B_12Gauge_74Slug"",""CUP_12Gauge_Pellets_Submunition_No0_Buck"",""CUP_12Gauge_Pellets_Submunition_No00_Buck"",""ACE_12Gauge_Pellets_Submunition_No0_Buck"",""ACE_12Gauge_Pellets_Submunition_No1_Buck"",""ACE_12Gauge_Pellets_Submunition_No2_Buck"",""ACE_12Gauge_Pellets_Submunition_No3_Buck"",""ACE_12Gauge_Pellets_Submunition_No4_Buck"",""HLC_12G_Buck"",""B_12Gauge_Slug_Cartridge_lxWS"",""B_12Gauge_Pellets_Cartridge_lxWS"",""B_12Gauge_Slug"",""B_12Gauge_Pellets_Submunition_Cartridge""]";
-force tsp_cba_breach_ammo_multiplier = 0.07;
+force tsp_cba_breach_ammo = "[""B_12Gauge_Slug_NoCartridge"",""B_12Gauge_Pellets_Submunition"",""B_12Gauge_Pellets_Submunition_Deploy"",""B_40mm_Pellets_Submunition_lxWS"",""rhs_ammo_12g_slug"",""rhs_ammo_12g_00buckshot"",""rhs_ammo_12g_00buckshot_pellet"",""rhs_ammo_m576_buckshot"",""UK3CB_BAF_B_12Gauge_Slug"",""UK3CB_BAF_B_12Gauge_Pellets"",""CUP_12Gauge_Slug"",""CUP_B_12Gauge_Pellets"",""CUP_B_12Gauge_74Slug"",""CUP_12Gauge_Pellets_Submunition_No0_Buck"",""CUP_12Gauge_Pellets_Submunition_No00_Buck"",""ACE_12Gauge_Pellets_Submunition_No0_Buck"",""ACE_12Gauge_Pellets_Submunition_No1_Buck"",""ACE_12Gauge_Pellets_Submunition_No2_Buck"",""ACE_12Gauge_Pellets_Submunition_No3_Buck"",""ACE_12Gauge_Pellets_Submunition_No4_Buck"",""HLC_12G_Buck"",""B_12Gauge_Slug_Cartridge_lxWS"",""B_12Gauge_Pellets_Cartridge_lxWS"",""B_12Gauge_Slug"",""B_12Gauge_Pellets_Submunition_Cartridge"",""ACE_12Gauge_Pellets_Submunition_No0_Buck"",""ACE_12Gauge_Pellets_Submunition_No0_Buck_Deploy"",""ACE_12Gauge_Pellets_Submunition_No1_Buck"",""ACE_12Gauge_Pellets_Submunition_No1_Buck_Deploy"",""ACE_12Gauge_Pellets_Submunition_No2_Buck"",""ACE_12Gauge_Pellets_Submunition_No2_Buck_Deploy"",""ACE_12Gauge_Pellets_Submunition_No3_Buck"",""ACE_12Gauge_Pellets_Submunition_No3_Buck_Deploy"",""ACE_12Gauge_Pellets_Submunition_No4_Bird"",""ACE_12Gauge_Pellets_Submunition_No4_Bird_Deploy"",""ACE_12Gauge_Pellets_Submunition_No4_Buck"",""ACE_12Gauge_Pellets_Submunition_No4_Buck_Deploy"",""ACE_12Gauge_Slug_NoCartridge"",""B_12gauge_HE_Cartridge_lxWS"",""B_12Gauge_Slug"",""B_12gauge_Slug_Cartridge_lxWS"",""B_12Gauge_Slug_NoCartridge"",""B_12Gauge_HD_Pellets_Submunition""]";
+force tsp_cba_breach_ammo_multiplier = 0.12;
 force tsp_cba_breach_auto = 5;
 force tsp_cba_breach_break = true;
 force tsp_cba_breach_fuse = 3;
@@ -2343,19 +2343,12 @@ force tsp_cba_breach_military = "[
 ""Land_Army_hut_int"",
 ""Land_Army_hut3_long"",
 ""Land_Army_hut2"",
-""Land_Army_hut3_long_int""
-]";
-force tsp_cba_breach_paperclip = "[0,0.5,0.25,0.15]";
-force tsp_cba_breach_picking_time = 20;
-force tsp_cba_breach_ragdoll_distance = 5;
-force tsp_cba_breach_ragdoll_force = 1;
-force tsp_cba_breach_reinforced = "[
+""Land_Army_hut3_long_int"",
 ""Land_Ammostore2"",
 ""Land_Garaz_s_tankem"",
 ""Land_Garaz_bez_tanku"",
 ""Land_Cargo_House_V4_F"",
 ""Land_Cargo_Tower_V1_F"",
-""Land_Cargo_HQ_V4_F"",
 ""Land_Cargo_Tower_V1_No4_F"",
 ""Land_Cargo_Tower_V1_No5_F"",
 ""Land_Cargo_Tower_V1_No7_F"",
@@ -2374,6 +2367,12 @@ force tsp_cba_breach_reinforced = "[
 ""Land_Cargo_House_V1_F"",
 ""Land_Cargo_HQ_V3_F"",
 ""Land_Cargo_House_V3_F""
+]";
+force tsp_cba_breach_paperclip = "[0,0.5,0.25,0.15]";
+force tsp_cba_breach_picking_time = 20;
+force tsp_cba_breach_ragdoll_distance = 5;
+force tsp_cba_breach_ragdoll_force = 1;
+force tsp_cba_breach_reinforced = "[
 ]";
 force tsp_cba_breach_shock = 240;
 force tsp_cba_breach_stun = true;
