@@ -2564,7 +2564,7 @@ force vms_config_vs_heli_min_cargo = 6;
 force vms_config_vs_statics_carryable = true;
 force vms_config_vs_statics_datalink = true;
 force vms_config_vs_preload_from_misc = false;
-force vms_config_vs_preload_crates = "TAW_Resupply_ACEArsenal,50,Resupply Crate [TAW]|ACE_medicalSupplyCrate,50,ACE Medical Supply Crate";
+force vms_config_vs_preload_crates = "TAW_Resupply_ACEArsenal,50,Resupply Crate [TAW]|ACE_Wheel,5,Wheel|ACE_Track,5,Track|Land_CanisterFuel_White_F,5,Fuel Canister";
 force vms_lists_supplies = "TAW_Supplies_Barrel,400|TAW_Supplies_Box,300|TAW_Supplies_Ammo,500|TAW_Supplies_Cash,450|TAW_Supplies_Gold,800";
 force vms_config_supplies_range = 50;
 
