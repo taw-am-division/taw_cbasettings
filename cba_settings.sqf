@@ -2476,7 +2476,7 @@ force vms_config_cb_veh_filter_enabled = false;
 force vms_config_maint_fuel_min_cargo = 100;
 force vms_config_maint_source_mode = 1;
 force vms_config_maintenance_enabled = true;
-force vms_config_rearm_allow_all_pylons = false;
+force vms_config_rearm_allow_all_pylons = true;
 force vms_config_rearm_enabled = true;
 force vms_config_rearm_mod_filter_enabled = false;
 force vms_config_rearm_range = 100;
@@ -2564,9 +2564,11 @@ force vms_config_vs_heli_min_cargo = 6;
 force vms_config_vs_statics_carryable = true;
 force vms_config_vs_statics_datalink = true;
 force vms_config_vs_preload_from_misc = false;
-force vms_config_vs_preload_crates = "TAW_Resupply_ACEArsenal,50,Resupply Crate [TAW]|ACE_Wheel,5,Wheel|ACE_Track,5,Track|Land_CanisterFuel_White_F,5,Fuel Canister";
+force vms_lists_preload_crates = "TAW_Resupply_ACEArsenal,50,Resupply Crate [TAW]|ACE_medicalSupplyCrate,50,ACE Medical Supply Crate|ACE_Wheel,5,Wheel|ACE_Track,5,Track|Land_CanisterFuel_White_F,5,Fuel Canister";
 force vms_lists_supplies = "TAW_Supplies_Barrel,400|TAW_Supplies_Box,300|TAW_Supplies_Ammo,500|TAW_Supplies_Cash,450|TAW_Supplies_Gold,800";
 force vms_config_supplies_range = 50;
+force vms_lists_cargo_space = "RHS_MELB_MH6M,8|RHS_MELB_AH6M,8|RHS_MELB_AH6M_MK2,8|RHS_UH60M_d,16|TF373_SOAR_MH47G,32|Helicopter,6";
+force vms_config_vs_cargo_apply_placed = true;
 
 // XENO
 force XENO_Taru_Pod_Mod_Action_Allonger_A_100m_Disponible = true;
